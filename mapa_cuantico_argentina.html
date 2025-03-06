@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5771afe0baa32407dc84055239098a3d {
+                #map_8abae820cb57f96142a18c8099172daf {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -43,17 +43,17 @@
              font-size: 16px; font-weight: normal; text-align: left; background-color: white;
              padding: 10px; border: 1px solid black; border-radius: 5px; z-index: 9999;
              width: auto; max-width: 300px;">
-    <strong> Mapa de la Cuántica en Argentina: </strong> <br> visita los 26 grupos de investigación
+    <strong> Mapa de la Cuántica en Argentina: </strong> <br> visita los 28 grupos de investigación
 </div>
     
-            <div class="folium-map" id="map_5771afe0baa32407dc84055239098a3d" ></div>
+            <div class="folium-map" id="map_8abae820cb57f96142a18c8099172daf" ></div>
         
 </body>
 <script>
     
     
-            var map_5771afe0baa32407dc84055239098a3d = L.map(
-                "map_5771afe0baa32407dc84055239098a3d",
+            var map_8abae820cb57f96142a18c8099172daf = L.map(
+                "map_8abae820cb57f96142a18c8099172daf",
                 {
                     center: [-38.4161, -63.6167],
                     crs: L.CRS.EPSG3857,
@@ -70,7 +70,7 @@
 
         
     
-            var tile_layer_3d0eeef39a0a27c85467c98a6cac9cf0 = L.tileLayer(
+            var tile_layer_267e63165afb6b6bff7baf4335b798c4 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -87,10 +87,10 @@
             );
         
     
-            tile_layer_3d0eeef39a0a27c85467c98a6cac9cf0.addTo(map_5771afe0baa32407dc84055239098a3d);
+            tile_layer_267e63165afb6b6bff7baf4335b798c4.addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var tile_layer_01ddc3ffbab0a95929addbd8efd73061 = L.tileLayer(
+            var tile_layer_082d2ca3db9fc31274ef84bf19e4f09a = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -107,26 +107,26 @@
             );
         
     
-            tile_layer_01ddc3ffbab0a95929addbd8efd73061.addTo(map_5771afe0baa32407dc84055239098a3d);
+            tile_layer_082d2ca3db9fc31274ef84bf19e4f09a.addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var macro_element_4ed6ace135fab56a0dd7c60d0bf308e2 = L.tileLayer.wms(
+            var macro_element_3378c24cbc3d35ef6214e230a8b98111 = L.tileLayer.wms(
                 "https://wms.ign.gob.ar/geoserver/ows?",
                 {"attribution": "\u00a9 Instituto Geogr\u00e1fico Nacional (IGN)", "format": "image/png", "layers": "capabaseargenmap", "styles": "", "transparent": false, "version": "1.3.0"}
             );
         
     
-            macro_element_4ed6ace135fab56a0dd7c60d0bf308e2.addTo(map_5771afe0baa32407dc84055239098a3d);
+            macro_element_3378c24cbc3d35ef6214e230a8b98111.addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var marker_7d330709d88c78fd512d6f69c8817973 = L.marker(
+            var marker_33a248b2f18a307f047c7b49b55e0b6c = L.marker(
                 [-41.1136987, -71.414127],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_750313abb8329a1da2c2032da421a2cb = L.AwesomeMarkers.icon(
+            var icon_b91a253f7153c4ee18c27a758e562ee2 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -135,27 +135,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_7d330709d88c78fd512d6f69c8817973.setIcon(icon_750313abb8329a1da2c2032da421a2cb);
+            marker_33a248b2f18a307f047c7b49b55e0b6c.setIcon(icon_b91a253f7153c4ee18c27a758e562ee2);
         
     
-        var popup_388f68404a4a092ea0474ec09f739ab6 = L.popup({
+        var popup_425438314febfab5e0ffbab9dfa0550b = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_fdb377704ad29a3bd726e13975b94a95 = $(`<div id="html_fdb377704ad29a3bd726e13975b94a95" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Espectroscopia e Imagenes por Resonancia Magnetica Nuclear<br>         <b>Afilación:</b> Centro Atomico Bariloche & Instituto Balseiro, CONICET, CNEA<br>         <b>Localidad:</b> Bariloche, Rio Negro<br>         <b>Contacto:</b> Gonzalo A. Alvarez, Investigador Responsable, Investigador Independiente CONICET, Profesor Adjunto Balseiro (gonzalo.a.alvarez@gmail.com)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> Our research activity is directed towards exploiting hitherto unexplored foundations of quantum control methods for tailoring spin evolutions in order to develop novel technologies and applications in the areas of nuclear magnetic resonance spectroscopy (NMR) and imaging (MRI). The main topic of our publications is about the spin dynamics of open quantum systems interacting with environments focusing on the characterization of the system dynamics and how it is modified by the environment (decoherence and dissipation). At the practical level, using both NMR experiments and theoretical tools, we are exploiting that by monitoring the changes on the system due to the environmental effects, one can sense the environment for characterizing physical, chemical, biological and medical processes to lead to new applications and quantum technologies in magnetic resonance. At the fundamental level, the understanding and control of quantum interference phenomena, and in particular the propagation of spin excitations can improve our comprehension and control of quantum systems, their decoherence and irreversible processes.         </div>`)[0];
-                popup_388f68404a4a092ea0474ec09f739ab6.setContent(html_fdb377704ad29a3bd726e13975b94a95);
+                var html_67ea1c625637aa6732d3f0302793fbd5 = $(`<div id="html_67ea1c625637aa6732d3f0302793fbd5" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Espectroscopia e Imagenes por Resonancia Magnetica Nuclear<br>         <b>Afilación:</b> Centro Atomico Bariloche & Instituto Balseiro, CONICET, CNEA<br>         <b>Localidad:</b> Bariloche, Rio Negro<br>         <b>Contacto:</b> Gonzalo A. Alvarez, Investigador Responsable, Investigador Independiente CONICET, Profesor Adjunto Balseiro (gonzalo.a.alvarez@gmail.com)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> Our research activity is directed towards exploiting hitherto unexplored foundations of quantum control methods for tailoring spin evolutions in order to develop novel technologies and applications in the areas of nuclear magnetic resonance spectroscopy (NMR) and imaging (MRI). The main topic of our publications is about the spin dynamics of open quantum systems interacting with environments focusing on the characterization of the system dynamics and how it is modified by the environment (decoherence and dissipation). At the practical level, using both NMR experiments and theoretical tools, we are exploiting that by monitoring the changes on the system due to the environmental effects, one can sense the environment for characterizing physical, chemical, biological and medical processes to lead to new applications and quantum technologies in magnetic resonance. At the fundamental level, the understanding and control of quantum interference phenomena, and in particular the propagation of spin excitations can improve our comprehension and control of quantum systems, their decoherence and irreversible processes.         </div>`)[0];
+                popup_425438314febfab5e0ffbab9dfa0550b.setContent(html_67ea1c625637aa6732d3f0302793fbd5);
             
         
 
-        marker_7d330709d88c78fd512d6f69c8817973.bindPopup(popup_388f68404a4a092ea0474ec09f739ab6)
+        marker_33a248b2f18a307f047c7b49b55e0b6c.bindPopup(popup_425438314febfab5e0ffbab9dfa0550b)
         ;
 
         
     
     
-            marker_7d330709d88c78fd512d6f69c8817973.bindTooltip(
+            marker_33a248b2f18a307f047c7b49b55e0b6c.bindTooltip(
                 `<div>
                      Laboratorio de Espectroscopia e Imagenes por Resonancia Magnetica Nuclear
                  </div>`,
@@ -165,14 +165,14 @@
             );
         
     
-            var marker_80afb7af3309157392b65a999171e7f2 = L.marker(
+            var marker_cdbd2ff746522dd9fcffd2d5822de699 = L.marker(
                 [-41.122695, -71.410185],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_843658d24851cfcef8ed5758cb0782c2 = L.AwesomeMarkers.icon(
+            var icon_98e506221e9cb0b82398e63bfd7a0b42 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -181,27 +181,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_80afb7af3309157392b65a999171e7f2.setIcon(icon_843658d24851cfcef8ed5758cb0782c2);
+            marker_cdbd2ff746522dd9fcffd2d5822de699.setIcon(icon_98e506221e9cb0b82398e63bfd7a0b42);
         
     
-        var popup_3a9483aa0460398bd3a6cd9f9367fd5f = L.popup({
+        var popup_a9932aadb53ade6fb49b61aa078d7b6c = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_ac3907c869d4cd3e48f1c1e9a0677b0f = $(`<div id="html_ac3907c869d4cd3e48f1c1e9a0677b0f" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Circuitos Cuánticos de Bariloche<br>         <b>Afilación:</b> Div. Dispositivos y Sensores, Gerencia de Física, Centro Atómico Bariloche, CNEA.<br>         <b>Localidad:</b> Bariloche, Río Negro<br>         <b>Contacto:</b> Leandro Tosi, investigador (leandro.tosi@ib.edu.ar)<br>         <b>Página web:</b> <a href="https://www.linkedin.com/company/grupo-circuitos-cuanticos/" target="_blank">https://www.linkedin.com/company/grupo-circuitos-cuanticos/</a><br>         <b>Redes sociales:</b> <a href="https://www.linkedin.com/company/grupo-circuitos-cuanticos/" target="_blank">https://www.linkedin.com/company/grupo-circuitos-cuanticos/</a><br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> El Grupo de Circuitos Cuánticos de Bariloche está abocado a realizar experimentos de mecánica cuántica utilizando circuitos superconductores como plataforma. Nos especializamos en particular en sistemas híbridos que combinan materiales superconductores y semiconductores para desarrollar dispositivos con propiedades únicas, como la hibridización de grados de libertad fermiónicos y bosónicos. Actualmente, estamos creando un procesador cuántico de pequeña escala basado en qubits tipo fluxonium, con el objetivo de impulsar la computación cuántica en Argentina.         </div>`)[0];
-                popup_3a9483aa0460398bd3a6cd9f9367fd5f.setContent(html_ac3907c869d4cd3e48f1c1e9a0677b0f);
+                var html_74835a5fb4bcacd252cf18385c65ce32 = $(`<div id="html_74835a5fb4bcacd252cf18385c65ce32" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Circuitos Cuánticos de Bariloche<br>         <b>Afilación:</b> Div. Dispositivos y Sensores, Gerencia de Física, Centro Atómico Bariloche, CNEA.<br>         <b>Localidad:</b> Bariloche, Río Negro<br>         <b>Contacto:</b> Leandro Tosi, investigador (leandro.tosi@ib.edu.ar)<br>         <b>Página web:</b> <a href="https://www.linkedin.com/company/grupo-circuitos-cuanticos/" target="_blank">https://www.linkedin.com/company/grupo-circuitos-cuanticos/</a><br>         <b>Redes sociales:</b> <a href="https://www.linkedin.com/company/grupo-circuitos-cuanticos/" target="_blank">https://www.linkedin.com/company/grupo-circuitos-cuanticos/</a><br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> El Grupo de Circuitos Cuánticos de Bariloche está abocado a realizar experimentos de mecánica cuántica utilizando circuitos superconductores como plataforma. Nos especializamos en particular en sistemas híbridos que combinan materiales superconductores y semiconductores para desarrollar dispositivos con propiedades únicas, como la hibridización de grados de libertad fermiónicos y bosónicos. Actualmente, estamos creando un procesador cuántico de pequeña escala basado en qubits tipo fluxonium, con el objetivo de impulsar la computación cuántica en Argentina.         </div>`)[0];
+                popup_a9932aadb53ade6fb49b61aa078d7b6c.setContent(html_74835a5fb4bcacd252cf18385c65ce32);
             
         
 
-        marker_80afb7af3309157392b65a999171e7f2.bindPopup(popup_3a9483aa0460398bd3a6cd9f9367fd5f)
+        marker_cdbd2ff746522dd9fcffd2d5822de699.bindPopup(popup_a9932aadb53ade6fb49b61aa078d7b6c)
         ;
 
         
     
     
-            marker_80afb7af3309157392b65a999171e7f2.bindTooltip(
+            marker_cdbd2ff746522dd9fcffd2d5822de699.bindTooltip(
                 `<div>
                      Grupo de Circuitos Cuánticos de Bariloche
                  </div>`,
@@ -211,14 +211,14 @@
             );
         
     
-            var marker_a02fa4c34e59c7c6a147f3f2d1d34241 = L.marker(
+            var marker_d9b400c3315623850f5d2c26f9290768 = L.marker(
                 [-34.5443738, -58.4394577],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_10196618d118b6f1779fdb3f38327ddd = L.AwesomeMarkers.icon(
+            var icon_297260778da7755a00ee6aa1b9df4348 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -227,27 +227,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_a02fa4c34e59c7c6a147f3f2d1d34241.setIcon(icon_10196618d118b6f1779fdb3f38327ddd);
+            marker_d9b400c3315623850f5d2c26f9290768.setIcon(icon_297260778da7755a00ee6aa1b9df4348);
         
     
-        var popup_8a0949e269f74d3a1312af679fa6e10c = L.popup({
+        var popup_1f45b6788e13e4d10ae87fda9611dcad = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_fa556b71dc37917f0f5036e3ca04c7ce = $(`<div id="html_fa556b71dc37917f0f5036e3ca04c7ce" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de espintrónica y nanofísica teórica<br>         <b>Afilación:</b> Universidad de Buenos Aires, Departamento de Física<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Pablo I. Tamborenea, Profesor (pablot@df.uba.ar)<br>         <b>Página web:</b> <a href="http://users.df.uba.ar/pablot/" target="_blank">http://users.df.uba.ar/pablot/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> Realizamos investigación teórica básica sobre fundamentos físicos de espintrónica con semiconductores, interacción de la materia con luz estructurada, control cuántico de sistemas nanoscópicos, y  fenómenos ligados a la interacción en sistemas cuánticos de muchas particulas.         <br><hr><br>         <b>Nombre:</b> Laboratorio de Iones y Átomos Fríos<br>         <b>Afilación:</b> Universidad de Buenos Aires y CONICET<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Christian Tomás Schmiegelow, Profesor/Investigador (schmiegelow@df.uba.ar)<br>         <b>Página web:</b> <a href="http://qufiba.df.uba.ar/" target="_blank">http://qufiba.df.uba.ar/</a><br>         <b>Redes sociales:</b> x (Twitter) @liaf_quantum<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> En el LIAF realizamos experimentos con iones y nanopartículas atrapadas, desarrollando técnicas innovadoras para controlar tanto el movimiento como los estados internos de átomos individuales mediante luz estructurada. Exploramos fenómenos termodinámicos en el límite cuántico y fuera del equilibrio, utilizando iones atrapados como plataformas para simulación cuántica. Además, investigamos métodos avanzados de enfriamiento láser en materiales sólidos, una tecnología emergente con desafíos complejos. Nuestra investigación abarca desde fundamentos de la interacción luz-materia hasta aplicaciones en sensado cuántico, preparación de estados cuánticos y nuevas herramientas para la información cuántica, con un enfoque en la luz estructurada como recurso central.         <br><hr><br>         <b>Nombre:</b> Grupo Logos<br>         <b>Afilación:</b> CONICET - UBA<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Christian de Ronde, Investigador independiente CONICET.  (cderonde@gmail.com)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico<br>         <b>Descripción:</b> El grupo logos busca desarrollar una formalización matemático-conceptual consistente de la teoría cuántica.          </div>`)[0];
-                popup_8a0949e269f74d3a1312af679fa6e10c.setContent(html_fa556b71dc37917f0f5036e3ca04c7ce);
+                var html_7c11523a2738c9e73e0961a4a013a180 = $(`<div id="html_7c11523a2738c9e73e0961a4a013a180" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de espintrónica y nanofísica teórica<br>         <b>Afilación:</b> Universidad de Buenos Aires, Departamento de Física<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Pablo I. Tamborenea, Profesor (pablot@df.uba.ar)<br>         <b>Página web:</b> <a href="http://users.df.uba.ar/pablot/" target="_blank">http://users.df.uba.ar/pablot/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> Realizamos investigación teórica básica sobre fundamentos físicos de espintrónica con semiconductores, interacción de la materia con luz estructurada, control cuántico de sistemas nanoscópicos, y  fenómenos ligados a la interacción en sistemas cuánticos de muchas particulas.         <br><hr><br>         <b>Nombre:</b> Laboratorio de Iones y Átomos Fríos<br>         <b>Afilación:</b> Universidad de Buenos Aires y CONICET<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Christian Tomás Schmiegelow, Profesor/Investigador (schmiegelow@df.uba.ar)<br>         <b>Página web:</b> <a href="http://qufiba.df.uba.ar/" target="_blank">http://qufiba.df.uba.ar/</a><br>         <b>Redes sociales:</b> x (Twitter) @liaf_quantum<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> En el LIAF realizamos experimentos con iones y nanopartículas atrapadas, desarrollando técnicas innovadoras para controlar tanto el movimiento como los estados internos de átomos individuales mediante luz estructurada. Exploramos fenómenos termodinámicos en el límite cuántico y fuera del equilibrio, utilizando iones atrapados como plataformas para simulación cuántica. Además, investigamos métodos avanzados de enfriamiento láser en materiales sólidos, una tecnología emergente con desafíos complejos. Nuestra investigación abarca desde fundamentos de la interacción luz-materia hasta aplicaciones en sensado cuántico, preparación de estados cuánticos y nuevas herramientas para la información cuántica, con un enfoque en la luz estructurada como recurso central.         <br><hr><br>         <b>Nombre:</b> Grupo Logos<br>         <b>Afilación:</b> CONICET - UBA<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Christian de Ronde, Investigador independiente CONICET.  (cderonde@gmail.com)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico<br>         <b>Descripción:</b> El grupo logos busca desarrollar una formalización matemático-conceptual consistente de la teoría cuántica.          </div>`)[0];
+                popup_1f45b6788e13e4d10ae87fda9611dcad.setContent(html_7c11523a2738c9e73e0961a4a013a180);
             
         
 
-        marker_a02fa4c34e59c7c6a147f3f2d1d34241.bindPopup(popup_8a0949e269f74d3a1312af679fa6e10c)
+        marker_d9b400c3315623850f5d2c26f9290768.bindPopup(popup_1f45b6788e13e4d10ae87fda9611dcad)
         ;
 
         
     
     
-            marker_a02fa4c34e59c7c6a147f3f2d1d34241.bindTooltip(
+            marker_d9b400c3315623850f5d2c26f9290768.bindTooltip(
                 `<div>
                      Grupo de espintrónica y nanofísica teórica<br>Laboratorio de Iones y Átomos Fríos<br>Grupo Logos
                  </div>`,
@@ -257,14 +257,14 @@
             );
         
     
-            var marker_adf4f9c3e0ce3b7cd8185cc1d2d27e6c = L.marker(
+            var marker_5f327306994d47de960b2b02261c02ee = L.marker(
                 [-34.5440501, -58.4404343],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_869083e056190beb111fb65ce47305da = L.AwesomeMarkers.icon(
+            var icon_3fc4f843436f1ecfe2ad112704e1ad4f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -273,27 +273,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_adf4f9c3e0ce3b7cd8185cc1d2d27e6c.setIcon(icon_869083e056190beb111fb65ce47305da);
+            marker_5f327306994d47de960b2b02261c02ee.setIcon(icon_3fc4f843436f1ecfe2ad112704e1ad4f);
         
     
-        var popup_0ad18fc0785591a2d10c724cada105e0 = L.popup({
+        var popup_9da8dc1e624b3391a09ca931fdee5396 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_4aee257037a929996bc3eab93bf5ec90 = $(`<div id="html_4aee257037a929996bc3eab93bf5ec90" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> QuICC: Quantum Information, Computation, and Communication<br>         <b>Afilación:</b> Instituto de Ciencias de la Computación, UBA-CONICET<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Gustavo Martin Bosyk, Investigador (gbosyk@gmail.com)<br>         <b>Página web:</b> <a href="https://quicc.dc.uba.ar/" target="_blank">https://quicc.dc.uba.ar/</a><br>         <b>Redes sociales:</b> <a href="https://www.instagram.com/p/DDpxPq2PYby/" target="_blank">https://www.instagram.com/p/DDpxPq2PYby/</a><br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b>  QuICC: Quantum Information, Computation, and Communication es un grupo de investigación en el ICC (UBA/CONICET).  Los temas de interés incluyen: - Medidas informacionales de correlaciones no clásicas - No localidad - Algoritmos cuánticos - Fundamentos de la mecánica cuántica - Computabilidad y computación cuántica - Fundamentos de los lenguajes de programación cuántica (teoría de tipos, teoría de categorías, cálculo lambda) - Recursos cuánticos         </div>`)[0];
-                popup_0ad18fc0785591a2d10c724cada105e0.setContent(html_4aee257037a929996bc3eab93bf5ec90);
+                var html_57480b728e620c0829fad90bc0dc0a7c = $(`<div id="html_57480b728e620c0829fad90bc0dc0a7c" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> QuICC: Quantum Information, Computation, and Communication<br>         <b>Afilación:</b> Instituto de Ciencias de la Computación, UBA-CONICET<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Gustavo Martin Bosyk, Investigador (gbosyk@gmail.com)<br>         <b>Página web:</b> <a href="https://quicc.dc.uba.ar/" target="_blank">https://quicc.dc.uba.ar/</a><br>         <b>Redes sociales:</b> <a href="https://www.instagram.com/p/DDpxPq2PYby/" target="_blank">https://www.instagram.com/p/DDpxPq2PYby/</a><br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b>  QuICC: Quantum Information, Computation, and Communication es un grupo de investigación en el ICC (UBA/CONICET).  Los temas de interés incluyen: - Medidas informacionales de correlaciones no clásicas - No localidad - Algoritmos cuánticos - Fundamentos de la mecánica cuántica - Computabilidad y computación cuántica - Fundamentos de los lenguajes de programación cuántica (teoría de tipos, teoría de categorías, cálculo lambda) - Recursos cuánticos         </div>`)[0];
+                popup_9da8dc1e624b3391a09ca931fdee5396.setContent(html_57480b728e620c0829fad90bc0dc0a7c);
             
         
 
-        marker_adf4f9c3e0ce3b7cd8185cc1d2d27e6c.bindPopup(popup_0ad18fc0785591a2d10c724cada105e0)
+        marker_5f327306994d47de960b2b02261c02ee.bindPopup(popup_9da8dc1e624b3391a09ca931fdee5396)
         ;
 
         
     
     
-            marker_adf4f9c3e0ce3b7cd8185cc1d2d27e6c.bindTooltip(
+            marker_5f327306994d47de960b2b02261c02ee.bindTooltip(
                 `<div>
                      QuICC: Quantum Information, Computation, and Communication
                  </div>`,
@@ -303,14 +303,14 @@
             );
         
     
-            var marker_96f131fae273114e80a3d5ee14b4bbd6 = L.marker(
+            var marker_fcd2b6b753b567a949f8a15a4f8a3017 = L.marker(
                 [-34.5447362, -58.440696],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_07d56da14ad2958fa2aff18c820619b5 = L.AwesomeMarkers.icon(
+            var icon_2cd4b4c9205ee3cf764c1a3e65164805 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -319,27 +319,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_96f131fae273114e80a3d5ee14b4bbd6.setIcon(icon_07d56da14ad2958fa2aff18c820619b5);
+            marker_fcd2b6b753b567a949f8a15a4f8a3017.setIcon(icon_2cd4b4c9205ee3cf764c1a3e65164805);
         
     
-        var popup_b360e2ef5cce6b163c149a12ceab763a = L.popup({
+        var popup_a9c27ae1ec230be0b165192ca70fdcb0 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_3581bdf30178b50735c634cf97281e0e = $(`<div id="html_3581bdf30178b50735c634cf97281e0e" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Gravitación y Cosmología<br>         <b>Afilación:</b> Instituto de Astronomía y Física del Espacio (IAFE)<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Gabriel Bengochea, Investigador CONICET (gabriel@iafe.uba.ar)<br>         <b>Página web:</b> <a href="https://www.iafe.uba.ar/relatividad/gravedad.html" target="_blank">https://www.iafe.uba.ar/relatividad/gravedad.html</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental<br>         <b>Descripción:</b> Mientras que la interacción gravitatoria es descripta con gran precisión por la Relatividad General, las leyes de la física a escalas atómica y subatómica corresponden al ámbito de la Teoría Cuántica. En algunas situaciones, como la física de agujeros negros o del universo temprano, la concurrencia de ambas descripciones parece indispensable para lograr resultados consistentes. En este marco, es de interés el estudio de estos diferentes aspectos en busca de una visión integral que funcione de guía para el entendimiento de la interfase entre la gravitación y la física Cuántica.         <br><hr><br>         <b>Nombre:</b> Dinámica Cuántica en la Materia<br>         <b>Afilación:</b> Instituto de Astronomía y Física del Espacio - IAFE (UBA-Conicet)<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Diego Arbó, Investigador Conicet y Profesor de la UBA (diego@iafe.uba.ar)<br>         <b>Página web:</b> <a href="https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/" target="_blank">https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El estudio de las interacciones dinámicas (es decir, en movimiento)  de partículas atómicas y fotones con la materia  es en la actualidad uno de los temas de frontera de la física cuántica, de interés tanto en ciencia básica como en el desarrollo de muchas de las tecnologías modernas, tales como la electrónica molecular, la opto-electrónica y la nanotecnología. Dentro de este vasto campo, el trabajo del grupo de Dinámica Cuántica en la Materia abarca distintas líneas de investigación, que van desde el estudio de la interacción de partículas cargadas – iones, átomos, electrones – con gases y sólidos hasta la investigación de procesos ocurridos en plasmas,  en colisiones rasantes con superficies  o por interacción con pulsos láser ultra-cortos, del orden de los atto-segundos.         <br><hr><br>         <b>Nombre:</b> Dinámica cuántica de electrones en la materia<br>         <b>Afilación:</b> Instituto de Astronomía y Física del Espacio (CONICET-UBA)<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Claudia Montanari, Investigadora Independiente, CONICET (mclaudia@iafe.uba.ar)<br>         <b>Página web:</b> <a href="https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/" target="_blank">https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo de "dinámica cuántica de electrones en la materia" del IAFE investiga en dos áreas fundamentales: i)  los procesos electrónicos debidos a la interacción radiación-materia,  interacción con pulsos láser ultra-cortos del orden de los atto-segundos, dirigida por el Dr. Diego Arbó. ii)  los procesos electrónicos en materiales  (gases, sólidos, atómicos o moleculares)  debidos a la interacción con partículas cargadas (electrones, iones, antiprotones, positrones), enfocada en obtener parámetros atómicos para el estudio de materiales y de plasmas (secciones eficaces de ionización y de pérdida de energía). Esta área es dirigida por el Dr. Darío Mitnik y la Dra. Claudia Montanari. Los temas mencionados son de interés tanto en ciencia básica como en el desarrollo de muchas de las tecnologías modernas, tales como la electrónica molecular, la opto-electrónica, la nanotecnología, diseño de reactores nucleares (estudio de los materiales para las paredes internas del reactor), evaluaciones de daño por radiación por iones pesados, análisis de materiales, implantación iónica controlada, hasta aplicaciones médicas como el tratamiento de cancer por protones, que se basa en la pérdida de energía muy localizada  del ión, excitando o ionizando electrones, y cómo administrar la misma en el tumor). El grupo desarrolla modelos teóricos y computacionales, así como recientes modelos de aprendizaje automatizado (Dr. Darío Mitnik) aplicado a la base de datos de pérdida de energía en materiales (stopping power) de la International Atomic Energy Agency (IAEA) administrada por la Dra. Claudia Montanari.         </div>`)[0];
-                popup_b360e2ef5cce6b163c149a12ceab763a.setContent(html_3581bdf30178b50735c634cf97281e0e);
+                var html_194dbc5fb1630e36834c2786fcb0e473 = $(`<div id="html_194dbc5fb1630e36834c2786fcb0e473" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Gravitación y Cosmología<br>         <b>Afilación:</b> Instituto de Astronomía y Física del Espacio (IAFE)<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Gabriel Bengochea, Investigador CONICET (gabriel@iafe.uba.ar)<br>         <b>Página web:</b> <a href="https://www.iafe.uba.ar/relatividad/gravedad.html" target="_blank">https://www.iafe.uba.ar/relatividad/gravedad.html</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental<br>         <b>Descripción:</b> Mientras que la interacción gravitatoria es descripta con gran precisión por la Relatividad General, las leyes de la física a escalas atómica y subatómica corresponden al ámbito de la Teoría Cuántica. En algunas situaciones, como la física de agujeros negros o del universo temprano, la concurrencia de ambas descripciones parece indispensable para lograr resultados consistentes. En este marco, es de interés el estudio de estos diferentes aspectos en busca de una visión integral que funcione de guía para el entendimiento de la interfase entre la gravitación y la física Cuántica.         <br><hr><br>         <b>Nombre:</b> Dinámica Cuántica en la Materia<br>         <b>Afilación:</b> Instituto de Astronomía y Física del Espacio - IAFE (UBA-Conicet)<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Diego Arbó, Investigador Conicet y Profesor de la UBA (diego@iafe.uba.ar)<br>         <b>Página web:</b> <a href="https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/" target="_blank">https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El estudio de las interacciones dinámicas (es decir, en movimiento)  de partículas atómicas y fotones con la materia  es en la actualidad uno de los temas de frontera de la física cuántica, de interés tanto en ciencia básica como en el desarrollo de muchas de las tecnologías modernas, tales como la electrónica molecular, la opto-electrónica y la nanotecnología. Dentro de este vasto campo, el trabajo del grupo de Dinámica Cuántica en la Materia abarca distintas líneas de investigación, que van desde el estudio de la interacción de partículas cargadas – iones, átomos, electrones – con gases y sólidos hasta la investigación de procesos ocurridos en plasmas,  en colisiones rasantes con superficies  o por interacción con pulsos láser ultra-cortos, del orden de los atto-segundos.         <br><hr><br>         <b>Nombre:</b> Dinámica cuántica de electrones en la materia<br>         <b>Afilación:</b> Instituto de Astronomía y Física del Espacio (CONICET-UBA)<br>         <b>Localidad:</b> CABA, Buenos Aires<br>         <b>Contacto:</b> Claudia Montanari, Investigadora Independiente, CONICET (mclaudia@iafe.uba.ar)<br>         <b>Página web:</b> <a href="https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/" target="_blank">https://www.iafe.uba.ar/investigacion/areas-de-investigacion/dinamica-cuantica-en-la-materia/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo de "dinámica cuántica de electrones en la materia" del IAFE investiga en dos áreas fundamentales: i)  los procesos electrónicos debidos a la interacción radiación-materia,  interacción con pulsos láser ultra-cortos del orden de los atto-segundos, dirigida por el Dr. Diego Arbó. ii)  los procesos electrónicos en materiales  (gases, sólidos, atómicos o moleculares)  debidos a la interacción con partículas cargadas (electrones, iones, antiprotones, positrones), enfocada en obtener parámetros atómicos para el estudio de materiales y de plasmas (secciones eficaces de ionización y de pérdida de energía). Esta área es dirigida por el Dr. Darío Mitnik y la Dra. Claudia Montanari. Los temas mencionados son de interés tanto en ciencia básica como en el desarrollo de muchas de las tecnologías modernas, tales como la electrónica molecular, la opto-electrónica, la nanotecnología, diseño de reactores nucleares (estudio de los materiales para las paredes internas del reactor), evaluaciones de daño por radiación por iones pesados, análisis de materiales, implantación iónica controlada, hasta aplicaciones médicas como el tratamiento de cancer por protones, que se basa en la pérdida de energía muy localizada  del ión, excitando o ionizando electrones, y cómo administrar la misma en el tumor). El grupo desarrolla modelos teóricos y computacionales, así como recientes modelos de aprendizaje automatizado (Dr. Darío Mitnik) aplicado a la base de datos de pérdida de energía en materiales (stopping power) de la International Atomic Energy Agency (IAEA) administrada por la Dra. Claudia Montanari.         </div>`)[0];
+                popup_a9c27ae1ec230be0b165192ca70fdcb0.setContent(html_194dbc5fb1630e36834c2786fcb0e473);
             
         
 
-        marker_96f131fae273114e80a3d5ee14b4bbd6.bindPopup(popup_b360e2ef5cce6b163c149a12ceab763a)
+        marker_fcd2b6b753b567a949f8a15a4f8a3017.bindPopup(popup_a9c27ae1ec230be0b165192ca70fdcb0)
         ;
 
         
     
     
-            marker_96f131fae273114e80a3d5ee14b4bbd6.bindTooltip(
+            marker_fcd2b6b753b567a949f8a15a4f8a3017.bindTooltip(
                 `<div>
                      Gravitación y Cosmología<br>Dinámica Cuántica en la Materia<br>Dinámica cuántica de electrones en la materia
                  </div>`,
@@ -349,14 +349,14 @@
             );
         
     
-            var marker_f95b27453db72c240dd732d4678efd24 = L.marker(
+            var marker_6c83cdb74cf87d0bd7408bc982f47a34 = L.marker(
                 [-27.4672152, -58.7864383],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_fa85ec798a34649d4ec7420056703943 = L.AwesomeMarkers.icon(
+            var icon_efc253e1faea38a4451ae744d7c08e8f = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -365,27 +365,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_f95b27453db72c240dd732d4678efd24.setIcon(icon_fa85ec798a34649d4ec7420056703943);
+            marker_6c83cdb74cf87d0bd7408bc982f47a34.setIcon(icon_efc253e1faea38a4451ae744d7c08e8f);
         
     
-        var popup_6f387c5a8b206e50c3ef7656a68af522 = L.popup({
+        var popup_6da0cdc788f4f88828b7e80cf164e92b = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_27f83685a49ce2fb07081d9b4c166d37 = $(`<div id="html_27f83685a49ce2fb07081d9b4c166d37" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de física atómica y molecular, GFAyM<br>         <b>Afilación:</b> Instituto de modelado e innovación tecnológica, IMIT<br>         <b>Localidad:</b> Corrientes, Corrientes<br>         <b>Contacto:</b> Gustavo Adolfo Aucar (gaaucar@conicet.gov.ar)<br>         <b>Página web:</b> <a href="https://imit.conicet.gov.ar/fisica-atomica-y-molecular/" target="_blank">https://imit.conicet.gov.ar/fisica-atomica-y-molecular/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> Las líneas principales de trabajo que desarrolla el grupo se orientan a la búsqueda de nuevas teorías y modelos que amplíen y profundicen el entendimiento tanto del origen y características físicas, como de las contribuciones numéricas debidas a los diferentes mecanismos electrónicos subyacentes a los parámetros espectroscópicos de la RMN y de otras espectroscopias cuánticas. Se pretende entender mejor los mecanismos electrónicos que describen las propiedades atómicas y moleculares de respuesta a campos externos.  Los sistemas cuánticos estudiados son variados. Desde los atómicos a los fragmentos de ADN (hasta 5 pares de ácidos nucléicos). Los fenómenos involucrados pueden ser: efectos de QED, relativistas, de correlación electrónica, enlaces de hidrógeno, enlaces de halógenos, cooperatividad, entrelazamiento cuántico, efecto de átomos pesados vecinos a otros átomos pesados, microsolvatación de compuestos que contienen átomos pesados como Hg.  Se pretende también describir la naturaleza magnética de los enlaces de hidrógeno y de halógenos, la probable descripción de la regla de Karplus mediante el entrelazamiento cuántico.  Se desarrollan también estudios sobre implicaciones filosóficas de la física, relativista y cuántica.         <br><hr><br>         <b>Nombre:</b> Grupo de Nanofísica<br>         <b>Afilación:</b> IMIT (CONICET, UNNE) y FaCENA (UNNW)<br>         <b>Localidad:</b> Corrientes, Corrientes<br>         <b>Contacto:</b> Alejandro Ferron, Profesor Titular UNNE e Investigador Independiente de CONICET (aferron@gmail.com)<br>         <b>Página web:</b> <a href="https://imit.conicet.gov.ar/tc-integrantes/" target="_blank">https://imit.conicet.gov.ar/tc-integrantes/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo de Nanofísica del IMIT y la FaCENA es un grupo joven con 6 integrantes (profesores e investigadores) que cuenta, en este momento, con 2 estudiantes de doctorado y varios estudiantes de grado.          </div>`)[0];
-                popup_6f387c5a8b206e50c3ef7656a68af522.setContent(html_27f83685a49ce2fb07081d9b4c166d37);
+                var html_032e177d03f8d7db3c1246eca289024f = $(`<div id="html_032e177d03f8d7db3c1246eca289024f" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de física atómica y molecular, GFAyM<br>         <b>Afilación:</b> Instituto de modelado e innovación tecnológica, IMIT<br>         <b>Localidad:</b> Corrientes, Corrientes<br>         <b>Contacto:</b> Gustavo Adolfo Aucar (gaaucar@conicet.gov.ar)<br>         <b>Página web:</b> <a href="https://imit.conicet.gov.ar/fisica-atomica-y-molecular/" target="_blank">https://imit.conicet.gov.ar/fisica-atomica-y-molecular/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> Las líneas principales de trabajo que desarrolla el grupo se orientan a la búsqueda de nuevas teorías y modelos que amplíen y profundicen el entendimiento tanto del origen y características físicas, como de las contribuciones numéricas debidas a los diferentes mecanismos electrónicos subyacentes a los parámetros espectroscópicos de la RMN y de otras espectroscopias cuánticas. Se pretende entender mejor los mecanismos electrónicos que describen las propiedades atómicas y moleculares de respuesta a campos externos.  Los sistemas cuánticos estudiados son variados. Desde los atómicos a los fragmentos de ADN (hasta 5 pares de ácidos nucléicos). Los fenómenos involucrados pueden ser: efectos de QED, relativistas, de correlación electrónica, enlaces de hidrógeno, enlaces de halógenos, cooperatividad, entrelazamiento cuántico, efecto de átomos pesados vecinos a otros átomos pesados, microsolvatación de compuestos que contienen átomos pesados como Hg.  Se pretende también describir la naturaleza magnética de los enlaces de hidrógeno y de halógenos, la probable descripción de la regla de Karplus mediante el entrelazamiento cuántico.  Se desarrollan también estudios sobre implicaciones filosóficas de la física, relativista y cuántica.         <br><hr><br>         <b>Nombre:</b> Grupo de Nanofísica<br>         <b>Afilación:</b> IMIT (CONICET, UNNE) y FaCENA (UNNW)<br>         <b>Localidad:</b> Corrientes, Corrientes<br>         <b>Contacto:</b> Alejandro Ferron, Profesor Titular UNNE e Investigador Independiente de CONICET (aferron@gmail.com)<br>         <b>Página web:</b> <a href="https://imit.conicet.gov.ar/tc-integrantes/" target="_blank">https://imit.conicet.gov.ar/tc-integrantes/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo de Nanofísica del IMIT y la FaCENA es un grupo joven con 6 integrantes (profesores e investigadores) que cuenta, en este momento, con 2 estudiantes de doctorado y varios estudiantes de grado.          </div>`)[0];
+                popup_6da0cdc788f4f88828b7e80cf164e92b.setContent(html_032e177d03f8d7db3c1246eca289024f);
             
         
 
-        marker_f95b27453db72c240dd732d4678efd24.bindPopup(popup_6f387c5a8b206e50c3ef7656a68af522)
+        marker_6c83cdb74cf87d0bd7408bc982f47a34.bindPopup(popup_6da0cdc788f4f88828b7e80cf164e92b)
         ;
 
         
     
     
-            marker_f95b27453db72c240dd732d4678efd24.bindTooltip(
+            marker_6c83cdb74cf87d0bd7408bc982f47a34.bindTooltip(
                 `<div>
                      Grupo de física atómica y molecular, GFAyM<br>Grupo de Nanofísica
                  </div>`,
@@ -395,14 +395,14 @@
             );
         
     
-            var marker_a32d730a591f610596675b4690712890 = L.marker(
+            var marker_d659350144c188ce70a8d5a3495bddb2 = L.marker(
                 [-34.9129687, -57.9265218],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_834a15e773631b53dca9be20a53e1030 = L.AwesomeMarkers.icon(
+            var icon_480d53896c6758ac247095b4260823f3 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -411,27 +411,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_a32d730a591f610596675b4690712890.setIcon(icon_834a15e773631b53dca9be20a53e1030);
+            marker_d659350144c188ce70a8d5a3495bddb2.setIcon(icon_480d53896c6758ac247095b4260823f3);
         
     
-        var popup_35b19bdc90df5913c23f6c1e4ae0dbde = L.popup({
+        var popup_3ad8e45315829d365a52652a04e4233c = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_f6e829753819a49c6a765b0c020304cb = $(`<div id="html_f6e829753819a49c6a765b0c020304cb" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Quantum Logic + Probability<br>         <b>Afilación:</b> Instituto de Física La Plata<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Federico Hernán Holik - Investigador Adjunto - CONICET (holik@fisica.unlp.edu.ar)<br>         <b>Página web:</b> <a href="http://www.quantumlogic.com.ar" target="_blank">www.quantumlogic.com.ar</a><br>         <b>Redes sociales:</b> <a href="https://www.instagram.com/quantumlogic_probability/profilecard/?igsh=MWtidWc3ODc4bHprcA==" target="_blank">https://www.instagram.com/quantumlogic_probability/profilecard/?igsh=MWtidWc3ODc4bHprcA==</a><br>         <b>Enfoque:</b> Teórico, Computacional, Uso de computadoras cuánticas a través de la nube (IonQ, IQM, sistema Qexa20, Rigetti)<br>         <b>Descripción:</b> Este grupo está dedicado al estudio de los aspectos lógicos y algebraicos de la teoría cuántica y sus aplicaciones a la teoría de la información cuántica. Nos enfocamos en determinar los motivos por los cuales parece haber una ventaja en el uso de computadoras cuánticas. Esto implica el estudio de herramientas teóricas y numéricas para cuantificar cuan cuántico es un estado cuántico. Entre éstas, podemos mencionar a la contextualidad, la no localidad, el entrelazamiento y la indistinguibilidad. A partir de estos cuantificadores, desarrollamos herramientas de software para testear el funcionamiento de computadoras cuánticas actualmente disponibles y optimizar sus capacidades.         <br><hr><br>         <b>Nombre:</b>  Información Cuántica y Sistemas Cuánticos de Muchos Cuerpos<br>         <b>Afilación:</b> IFLP/CONICET-Facultad de Ciencias Exactas, UNLP - CIC<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Dr. Raúl Rossignoli, Investigador Principal CIC, Profesor Titular UNLP (rossigno@fisica.unlp.edu.ar)<br>         <b>Página web:</b> <a href="https://sedici.unlp.edu.ar/handle/10915/73814" target="_blank">https://sedici.unlp.edu.ar/handle/10915/73814</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo cuenta con seis investigadores, ocho becarios (doctorales y posdoctorales), y alumnos realizando tesis de Licenciatura y/o Maestría. Los principales temas investigados  son: 1)  Entrelazamiento y Correlaciones Cuánticas, con  aplicaciones a materia condensada y química cuántica,  2) Modelos Cuánticos de Tiempo, incluyendo aspectos fundamentales en Mecánica Cuántica relativista y aplicaciones al desarrollo de algoritmos cuánticos eficientes,  3) Entrelazamiento cuántico e Indistinguibilidad en sistemas fermiónicos y bosónicos,  4) Teoría de Coherencia Cuántica  y su  rol en la teoría de recursos cuántica, 5) Óptica Cuántica y el desarrollo de plataformas ópticas para simulaciones cuánticas  y 6) Aprendizaje Automático y Mecánica Cuántica.         <br><hr><br>         <b>Nombre:</b> Mecánica Cuántica Multiparticular y Teoría de la Información Cuántica y Clásica<br>         <b>Afilación:</b> Instituto de Física La Plata (IFLP, CONICET-UNLP)<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Mariela Portesi, Investigadora CONICET - Profesora UNLP (portesi@fisica.unlp.edu.ar)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo está integrado actualmente por 6 investigadores, 6 becarios doctorales y 1 investigador correspondiente, manteniendo colaboraciones intensas en el país con una veintena de investigadores y tesistas, y otro tanto de diversos centros del exterior. Los principales temas de investigación del grupo están relacionados con: sistemas cuánticos abiertos, dinámica no hermitica, control cuántico, aprendizaje automático cuántico, computación cuántica, estimación de estados cuánticos, información cuántica, recursos cuánticos, correlaciones cuánticas, geometría de los estados cuánticos, principio de máxima entropía, cuantificadores de información en sistemas cuánticos, relaciones de incertidumbre, relaciones de reciprocidad, geometría informacional, dinámica cuántica y límite clásico, caos cuántico.         </div>`)[0];
-                popup_35b19bdc90df5913c23f6c1e4ae0dbde.setContent(html_f6e829753819a49c6a765b0c020304cb);
+                var html_5d56785fadc54b2b907e394c304a3af3 = $(`<div id="html_5d56785fadc54b2b907e394c304a3af3" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Quantum Logic + Probability<br>         <b>Afilación:</b> Instituto de Física La Plata<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Federico Hernán Holik - Investigador Adjunto - CONICET (holik@fisica.unlp.edu.ar)<br>         <b>Página web:</b> <a href="http://www.quantumlogic.com.ar" target="_blank">www.quantumlogic.com.ar</a><br>         <b>Redes sociales:</b> <a href="https://www.instagram.com/quantumlogic_probability/profilecard/?igsh=MWtidWc3ODc4bHprcA==" target="_blank">https://www.instagram.com/quantumlogic_probability/profilecard/?igsh=MWtidWc3ODc4bHprcA==</a><br>         <b>Enfoque:</b> Teórico, Computacional, Uso de computadoras cuánticas a través de la nube (IonQ, IQM, sistema Qexa20, Rigetti)<br>         <b>Descripción:</b> Este grupo está dedicado al estudio de los aspectos lógicos y algebraicos de la teoría cuántica y sus aplicaciones a la teoría de la información cuántica. Nos enfocamos en determinar los motivos por los cuales parece haber una ventaja en el uso de computadoras cuánticas. Esto implica el estudio de herramientas teóricas y numéricas para cuantificar cuan cuántico es un estado cuántico. Entre éstas, podemos mencionar a la contextualidad, la no localidad, el entrelazamiento y la indistinguibilidad. A partir de estos cuantificadores, desarrollamos herramientas de software para testear el funcionamiento de computadoras cuánticas actualmente disponibles y optimizar sus capacidades.         <br><hr><br>         <b>Nombre:</b>  Información Cuántica y Sistemas Cuánticos de Muchos Cuerpos<br>         <b>Afilación:</b> IFLP/CONICET-Facultad de Ciencias Exactas, UNLP - CIC<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Dr. Raúl Rossignoli, Investigador Principal CIC, Profesor Titular UNLP (rossigno@fisica.unlp.edu.ar)<br>         <b>Página web:</b> <a href="https://sedici.unlp.edu.ar/handle/10915/73814" target="_blank">https://sedici.unlp.edu.ar/handle/10915/73814</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo cuenta con seis investigadores, ocho becarios (doctorales y posdoctorales), y alumnos realizando tesis de Licenciatura y/o Maestría. Los principales temas investigados  son: 1)  Entrelazamiento y Correlaciones Cuánticas, con  aplicaciones a materia condensada y química cuántica,  2) Modelos Cuánticos de Tiempo, incluyendo aspectos fundamentales en Mecánica Cuántica relativista y aplicaciones al desarrollo de algoritmos cuánticos eficientes,  3) Entrelazamiento cuántico e Indistinguibilidad en sistemas fermiónicos y bosónicos,  4) Teoría de Coherencia Cuántica  y su  rol en la teoría de recursos cuántica, 5) Óptica Cuántica y el desarrollo de plataformas ópticas para simulaciones cuánticas  y 6) Aprendizaje Automático y Mecánica Cuántica.         <br><hr><br>         <b>Nombre:</b> Mecánica Cuántica Multiparticular y Teoría de la Información Cuántica y Clásica<br>         <b>Afilación:</b> Instituto de Física La Plata (IFLP, CONICET-UNLP)<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Mariela Portesi, Investigadora CONICET - Profesora UNLP (portesi@fisica.unlp.edu.ar)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo está integrado actualmente por 6 investigadores, 6 becarios doctorales y 1 investigador correspondiente, manteniendo colaboraciones intensas en el país con una veintena de investigadores y tesistas, y otro tanto de diversos centros del exterior. Los principales temas de investigación del grupo están relacionados con: sistemas cuánticos abiertos, dinámica no hermitica, control cuántico, aprendizaje automático cuántico, computación cuántica, estimación de estados cuánticos, información cuántica, recursos cuánticos, correlaciones cuánticas, geometría de los estados cuánticos, principio de máxima entropía, cuantificadores de información en sistemas cuánticos, relaciones de incertidumbre, relaciones de reciprocidad, geometría informacional, dinámica cuántica y límite clásico, caos cuántico.         </div>`)[0];
+                popup_3ad8e45315829d365a52652a04e4233c.setContent(html_5d56785fadc54b2b907e394c304a3af3);
             
         
 
-        marker_a32d730a591f610596675b4690712890.bindPopup(popup_35b19bdc90df5913c23f6c1e4ae0dbde)
+        marker_d659350144c188ce70a8d5a3495bddb2.bindPopup(popup_3ad8e45315829d365a52652a04e4233c)
         ;
 
         
     
     
-            marker_a32d730a591f610596675b4690712890.bindTooltip(
+            marker_d659350144c188ce70a8d5a3495bddb2.bindTooltip(
                 `<div>
                      Quantum Logic + Probability<br> Información Cuántica y Sistemas Cuánticos de Muchos Cuerpos<br>Mecánica Cuántica Multiparticular y Teoría de la Información Cuántica y Clásica
                  </div>`,
@@ -441,14 +441,14 @@
             );
         
     
-            var marker_8cef368de9b9cc756bdc140bdbf70774 = L.marker(
+            var marker_37ee8f7ea620cbe725ec7e1d98d3f8c7 = L.marker(
                 [-38.0122229, -57.5812252],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_584b2083acc98ca55d929f0a00570517 = L.AwesomeMarkers.icon(
+            var icon_debe217650db9087b566e952217bb008 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -457,27 +457,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_8cef368de9b9cc756bdc140bdbf70774.setIcon(icon_584b2083acc98ca55d929f0a00570517);
+            marker_37ee8f7ea620cbe725ec7e1d98d3f8c7.setIcon(icon_debe217650db9087b566e952217bb008);
         
     
-        var popup_f14c0bc5b2f66d6b4931a8933c235379 = L.popup({
+        var popup_de665252f0bc7c13b3596e5d1136f5d9 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_55c9b9e405ac0d7dcba5c57be2f0cc26 = $(`<div id="html_55c9b9e405ac0d7dcba5c57be2f0cc26" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Sistemas Complejos y Computación Cuántica<br>         <b>Afilación:</b> Instituto de Investigaciones Científicas y Tecnológicas en Electrónica (ICYTE) - (Facultad de Ingeniería, Univ. Nac. de Mar del Plata - Conicet)<br>         <b>Localidad:</b> Mar del Plata, Buenos Aires<br>         <b>Contacto:</b> Juan Pablo Barrangú, Investigador (jpbarrangu@fi.mdp.edu.ar)<br>         <b>Página web:</b> <a href="https://www3.fi.mdp.edu.ar/lsccc/" target="_blank">https://www3.fi.mdp.edu.ar/lsccc/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El equipo de trabajo es interdisciplinario, constituido por físicos e ingenieros en electrónica. La línea de trabajo está centrada en el estudio e implementación de herramientas de mecánica estadística, sistemas dinámicos y mecánica cuántica para estudiar sistemas complejos de distintas áreas, tales como biología, nanotecnología, computación cuántica, así también como sistemas caóticos analógicos y digitales aplicados a sistemas electrónicos y a problemas de transporte en nanotecnología.         </div>`)[0];
-                popup_f14c0bc5b2f66d6b4931a8933c235379.setContent(html_55c9b9e405ac0d7dcba5c57be2f0cc26);
+                var html_ab1f5ebf7936f67150d655d6269ad5c2 = $(`<div id="html_ab1f5ebf7936f67150d655d6269ad5c2" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Sistemas Complejos y Computación Cuántica<br>         <b>Afilación:</b> Instituto de Investigaciones Científicas y Tecnológicas en Electrónica (ICYTE) - (Facultad de Ingeniería, Univ. Nac. de Mar del Plata - Conicet)<br>         <b>Localidad:</b> Mar del Plata, Buenos Aires<br>         <b>Contacto:</b> Juan Pablo Barrangú, Investigador (jpbarrangu@fi.mdp.edu.ar)<br>         <b>Página web:</b> <a href="https://www3.fi.mdp.edu.ar/lsccc/" target="_blank">https://www3.fi.mdp.edu.ar/lsccc/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El equipo de trabajo es interdisciplinario, constituido por físicos e ingenieros en electrónica. La línea de trabajo está centrada en el estudio e implementación de herramientas de mecánica estadística, sistemas dinámicos y mecánica cuántica para estudiar sistemas complejos de distintas áreas, tales como biología, nanotecnología, computación cuántica, así también como sistemas caóticos analógicos y digitales aplicados a sistemas electrónicos y a problemas de transporte en nanotecnología.         </div>`)[0];
+                popup_de665252f0bc7c13b3596e5d1136f5d9.setContent(html_ab1f5ebf7936f67150d655d6269ad5c2);
             
         
 
-        marker_8cef368de9b9cc756bdc140bdbf70774.bindPopup(popup_f14c0bc5b2f66d6b4931a8933c235379)
+        marker_37ee8f7ea620cbe725ec7e1d98d3f8c7.bindPopup(popup_de665252f0bc7c13b3596e5d1136f5d9)
         ;
 
         
     
     
-            marker_8cef368de9b9cc756bdc140bdbf70774.bindTooltip(
+            marker_37ee8f7ea620cbe725ec7e1d98d3f8c7.bindTooltip(
                 `<div>
                      Laboratorio de Sistemas Complejos y Computación Cuántica
                  </div>`,
@@ -487,14 +487,14 @@
             );
         
     
-            var marker_2d9e0b8a4bef6fa7ec2ec66f61a550fd = L.marker(
+            var marker_3763b108951a3a4fa1bf997de35998b4 = L.marker(
                 [-32.8837421, -68.8681343],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_8b254eeef47e88a88382b4ff7b926149 = L.AwesomeMarkers.icon(
+            var icon_5de68a4d155091d6030791f5179b2380 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -503,27 +503,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_2d9e0b8a4bef6fa7ec2ec66f61a550fd.setIcon(icon_8b254eeef47e88a88382b4ff7b926149);
+            marker_3763b108951a3a4fa1bf997de35998b4.setIcon(icon_5de68a4d155091d6030791f5179b2380);
         
     
-        var popup_5dfdf17d5d5edc8aaff66b1487a38cca = L.popup({
+        var popup_ef86498be7459ca68f63bd8fb8e8bdc5 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_0f2012fd5ec9c8120695d87a842be521 = $(`<div id="html_0f2012fd5ec9c8120695d87a842be521" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Materia Cuántica<br>         <b>Afilación:</b> Instituto Interdisciplinario de ciencias Básicas ICB-CONICET<br>         <b>Localidad:</b> Mendoza, Mendoza<br>         <b>Contacto:</b> Alejandro M. Lobos (alejandro.martin.lobos@gmail.com)<br>         <b>Página web:</b> <a href="https://icb.conicet.gov.ar/gmc/" target="_blank">https://icb.conicet.gov.ar/gmc/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El Grupo de Materia Cuántica surge de la fusión de dos grupos de investigación preexistentes en el ICB, el Grupo de Teoría de la Materia Condensada y el Grupo de la Dinámica Cuántica.  El área de la física de la materia condensada estudia las propiedades de la materia desde un punto de vista microscópico, enfocándose en las fases “condensadas” de la materia, es decir, aquellas que implican sistemas con muchos grados de libertad en interacción permanente: electrones, iones de la red, fonones, fotones, etc.  En el área de teoría de la materia condensada nos enfocamos principalmente en el estudio teórico de sistemas magnéticos, superconductores y semiconductores, utilizando para ello las leyes de la mecánica cuántica. En particular, nos interesan una diversidad de sistemas cuánticos nanoscópicos y con baja dimensionalidad, que poseen potenciales aplicaciones tecnológicas , tales como  tales como puntos y cables cuánticos, grafeno, sistemas magnéticos autoensamblados, cadenas de espín, etc.  El área de la dinámica cuántica se trabaja en el desarrollo y aplicación de técnicas de simulación computacional de la dinámica cuántica atomística de bio y nano-sistemas.  Nuestras técnicas permiten simular la respuesta de los sistemas a la luz para así simular una variedad de técnicas espectroscópicas en el rango UV-visible tales como espectroscopía de absorción, de transientes y pulso-sonda.  La simulación explícita de la dinámica electrónica en presencia de un campo electromagnético arbitrario nos permite ir más allá de la respuesta lineal y describir procesos tales como la transferencia de carga fotoinducida por ejemplo, que representa el paso inicial de la captación de energía solar en dispositivos fotovoltáicos.  Líneas de investigación:  - Sistemas cuánticos en baja dimensión - Dinámica cuántica de bio y nano-sistemas         </div>`)[0];
-                popup_5dfdf17d5d5edc8aaff66b1487a38cca.setContent(html_0f2012fd5ec9c8120695d87a842be521);
+                var html_0932089c4547a882e9d77445687f0bdc = $(`<div id="html_0932089c4547a882e9d77445687f0bdc" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Materia Cuántica<br>         <b>Afilación:</b> Instituto Interdisciplinario de ciencias Básicas ICB-CONICET<br>         <b>Localidad:</b> Mendoza, Mendoza<br>         <b>Contacto:</b> Alejandro M. Lobos (alejandro.martin.lobos@gmail.com)<br>         <b>Página web:</b> <a href="https://icb.conicet.gov.ar/gmc/" target="_blank">https://icb.conicet.gov.ar/gmc/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El Grupo de Materia Cuántica surge de la fusión de dos grupos de investigación preexistentes en el ICB, el Grupo de Teoría de la Materia Condensada y el Grupo de la Dinámica Cuántica.  El área de la física de la materia condensada estudia las propiedades de la materia desde un punto de vista microscópico, enfocándose en las fases “condensadas” de la materia, es decir, aquellas que implican sistemas con muchos grados de libertad en interacción permanente: electrones, iones de la red, fonones, fotones, etc.  En el área de teoría de la materia condensada nos enfocamos principalmente en el estudio teórico de sistemas magnéticos, superconductores y semiconductores, utilizando para ello las leyes de la mecánica cuántica. En particular, nos interesan una diversidad de sistemas cuánticos nanoscópicos y con baja dimensionalidad, que poseen potenciales aplicaciones tecnológicas , tales como  tales como puntos y cables cuánticos, grafeno, sistemas magnéticos autoensamblados, cadenas de espín, etc.  El área de la dinámica cuántica se trabaja en el desarrollo y aplicación de técnicas de simulación computacional de la dinámica cuántica atomística de bio y nano-sistemas.  Nuestras técnicas permiten simular la respuesta de los sistemas a la luz para así simular una variedad de técnicas espectroscópicas en el rango UV-visible tales como espectroscopía de absorción, de transientes y pulso-sonda.  La simulación explícita de la dinámica electrónica en presencia de un campo electromagnético arbitrario nos permite ir más allá de la respuesta lineal y describir procesos tales como la transferencia de carga fotoinducida por ejemplo, que representa el paso inicial de la captación de energía solar en dispositivos fotovoltáicos.  Líneas de investigación:  - Sistemas cuánticos en baja dimensión - Dinámica cuántica de bio y nano-sistemas         </div>`)[0];
+                popup_ef86498be7459ca68f63bd8fb8e8bdc5.setContent(html_0932089c4547a882e9d77445687f0bdc);
             
         
 
-        marker_2d9e0b8a4bef6fa7ec2ec66f61a550fd.bindPopup(popup_5dfdf17d5d5edc8aaff66b1487a38cca)
+        marker_3763b108951a3a4fa1bf997de35998b4.bindPopup(popup_ef86498be7459ca68f63bd8fb8e8bdc5)
         ;
 
         
     
     
-            marker_2d9e0b8a4bef6fa7ec2ec66f61a550fd.bindTooltip(
+            marker_3763b108951a3a4fa1bf997de35998b4.bindTooltip(
                 `<div>
                      Grupo de Materia Cuántica
                  </div>`,
@@ -533,14 +533,14 @@
             );
         
     
-            var marker_b492a0ca55ae7d07165e4e605f73d4fc = L.marker(
+            var marker_eb27ab5223042c8aa5a10aacb4d0336b = L.marker(
                 [-34.5761386, -58.5161015],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_18396e2ff011229b7532a2ac1e46a516 = L.AwesomeMarkers.icon(
+            var icon_5ce7bc2086089edeb69f32c988027426 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -549,27 +549,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_b492a0ca55ae7d07165e4e605f73d4fc.setIcon(icon_18396e2ff011229b7532a2ac1e46a516);
+            marker_eb27ab5223042c8aa5a10aacb4d0336b.setIcon(icon_5ce7bc2086089edeb69f32c988027426);
         
     
-        var popup_d85e8e6adf3795216079cb8cecea3848 = L.popup({
+        var popup_5b582d69452634fa6c9f8ccd14b236c8 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_d5c2968b5bbe348df6b711eaeb571102 = $(`<div id="html_d5c2968b5bbe348df6b711eaeb571102" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Departamento de Metrología Cuántica<br>         <b>Afilación:</b> INTI<br>         <b>Localidad:</b> San Martin, Buenos Aires<br>         <b>Contacto:</b> Mariano Real, Jefe de departamento (mreal@inti.gob.ar)<br>         <b>Página web:</b> <a href="https://www.inti.gob.ar/areas/metrologia-y-calidad/fisica/metrologia-cuantica" target="_blank">https://www.inti.gob.ar/areas/metrologia-y-calidad/fisica/metrologia-cuantica</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> El gupo está formado por un físico y 4 ingenieros y 5 técnicos. Además cuenta con 6 estudiantes de grado y 2 de doctorado. El enfoque principal es la aplicación de tecnologías cuánticas a la metrología, principalmente a patrones de resistencia (efecto Hall cuántico) y de tensión (efecto Josephson). Pero también a su aplicación en sensores basados en dichos efectos.         </div>`)[0];
-                popup_d85e8e6adf3795216079cb8cecea3848.setContent(html_d5c2968b5bbe348df6b711eaeb571102);
+                var html_b6a53af634077901d197e66f726c8440 = $(`<div id="html_b6a53af634077901d197e66f726c8440" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Departamento de Metrología Cuántica<br>         <b>Afilación:</b> INTI<br>         <b>Localidad:</b> San Martin, Buenos Aires<br>         <b>Contacto:</b> Mariano Real, Jefe de departamento (mreal@inti.gob.ar)<br>         <b>Página web:</b> <a href="https://www.inti.gob.ar/areas/metrologia-y-calidad/fisica/metrologia-cuantica" target="_blank">https://www.inti.gob.ar/areas/metrologia-y-calidad/fisica/metrologia-cuantica</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> El gupo está formado por un físico y 4 ingenieros y 5 técnicos. Además cuenta con 6 estudiantes de grado y 2 de doctorado. El enfoque principal es la aplicación de tecnologías cuánticas a la metrología, principalmente a patrones de resistencia (efecto Hall cuántico) y de tensión (efecto Josephson). Pero también a su aplicación en sensores basados en dichos efectos.         </div>`)[0];
+                popup_5b582d69452634fa6c9f8ccd14b236c8.setContent(html_b6a53af634077901d197e66f726c8440);
             
         
 
-        marker_b492a0ca55ae7d07165e4e605f73d4fc.bindPopup(popup_d85e8e6adf3795216079cb8cecea3848)
+        marker_eb27ab5223042c8aa5a10aacb4d0336b.bindPopup(popup_5b582d69452634fa6c9f8ccd14b236c8)
         ;
 
         
     
     
-            marker_b492a0ca55ae7d07165e4e605f73d4fc.bindTooltip(
+            marker_eb27ab5223042c8aa5a10aacb4d0336b.bindTooltip(
                 `<div>
                      Departamento de Metrología Cuántica
                  </div>`,
@@ -579,14 +579,14 @@
             );
         
     
-            var marker_b8b100853d8ff4595b21c9b16fa10691 = L.marker(
+            var marker_ebe4af6162bc11dec93e4598571f3589 = L.marker(
                 [-34.5729631, -58.5143852],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_76e605d09e42e18e8a24ab85a110dbfb = L.AwesomeMarkers.icon(
+            var icon_1efb5459fce2112499589dc066d41451 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -595,27 +595,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_b8b100853d8ff4595b21c9b16fa10691.setIcon(icon_76e605d09e42e18e8a24ab85a110dbfb);
+            marker_ebe4af6162bc11dec93e4598571f3589.setIcon(icon_1efb5459fce2112499589dc066d41451);
         
     
-        var popup_e955dce343639d8fa55ff96023fdb3c8 = L.popup({
+        var popup_48c7b224ebaae37d377488d3b8f1943c = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_22100e0dfa53cee1b15f1adb4a2d72f4 = $(`<div id="html_22100e0dfa53cee1b15f1adb4a2d72f4" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Dto Física Teórica, GIyA, GAIDI, CNEA<br>         <b>Afilación:</b> GIyA, CNEA<br>         <b>Localidad:</b> Villa Maipú, Buenos Aires<br>         <b>Contacto:</b> Leonardo Ermann, Investigador (leonardoermann@cnea.gob.ar)<br>         <b>Página web:</b> <a href="https://www.argentina.gob.ar/cnea/cac/laboratorios-e-instalaciones/fisica/teorica" target="_blank">https://www.argentina.gob.ar/cnea/cac/laboratorios-e-instalaciones/fisica/teorica</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El Departamento se dedica a la investigación en caos cuántico y clásico, física de altas energías y sistemas complejos. Explora las propiedades de partículas subatómicas,  teorías de campos, sistemas cuánticos abiertos y redes complejas utilizando métodos analíticos y numéricos.  Investiga temas como la cromodinámica cuántica, caos cuántico y clásico, física hadrónica, información cuántica, redes complejas y econofísica.         </div>`)[0];
-                popup_e955dce343639d8fa55ff96023fdb3c8.setContent(html_22100e0dfa53cee1b15f1adb4a2d72f4);
+                var html_e4e7ef7f66f15c855f021eec34453757 = $(`<div id="html_e4e7ef7f66f15c855f021eec34453757" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Dto Física Teórica, GIyA, GAIDI, CNEA<br>         <b>Afilación:</b> GIyA, CNEA<br>         <b>Localidad:</b> Villa Maipú, Buenos Aires<br>         <b>Contacto:</b> Leonardo Ermann, Investigador (leonardoermann@cnea.gob.ar)<br>         <b>Página web:</b> <a href="https://www.argentina.gob.ar/cnea/cac/laboratorios-e-instalaciones/fisica/teorica" target="_blank">https://www.argentina.gob.ar/cnea/cac/laboratorios-e-instalaciones/fisica/teorica</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El Departamento se dedica a la investigación en caos cuántico y clásico, física de altas energías y sistemas complejos. Explora las propiedades de partículas subatómicas,  teorías de campos, sistemas cuánticos abiertos y redes complejas utilizando métodos analíticos y numéricos.  Investiga temas como la cromodinámica cuántica, caos cuántico y clásico, física hadrónica, información cuántica, redes complejas y econofísica.         </div>`)[0];
+                popup_48c7b224ebaae37d377488d3b8f1943c.setContent(html_e4e7ef7f66f15c855f021eec34453757);
             
         
 
-        marker_b8b100853d8ff4595b21c9b16fa10691.bindPopup(popup_e955dce343639d8fa55ff96023fdb3c8)
+        marker_ebe4af6162bc11dec93e4598571f3589.bindPopup(popup_48c7b224ebaae37d377488d3b8f1943c)
         ;
 
         
     
     
-            marker_b8b100853d8ff4595b21c9b16fa10691.bindTooltip(
+            marker_ebe4af6162bc11dec93e4598571f3589.bindTooltip(
                 `<div>
                      Dto Física Teórica, GIyA, GAIDI, CNEA
                  </div>`,
@@ -625,14 +625,14 @@
             );
         
     
-            var marker_faacab2675023e94e902a6b370d9b1f0 = L.marker(
+            var marker_3a152e46bce433c04c704f99fd969a35 = L.marker(
                 [-34.5571099, -58.5067758],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_876b065e256b71169aca3337dd587be3 = L.AwesomeMarkers.icon(
+            var icon_abdd0885931b7c2f1b14318c34e3c208 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -641,27 +641,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_faacab2675023e94e902a6b370d9b1f0.setIcon(icon_876b065e256b71169aca3337dd587be3);
+            marker_3a152e46bce433c04c704f99fd969a35.setIcon(icon_abdd0885931b7c2f1b14318c34e3c208);
         
     
-        var popup_01b4124a8ac565d7d5499bd2e1f84d27 = L.popup({
+        var popup_fa3c111dda5f26e9131f628fb4afd7d8 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_2749fa2dc401631320aafd4df7b931e2 = $(`<div id="html_2749fa2dc401631320aafd4df7b931e2" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Láseres Moleculares<br>         <b>Afilación:</b> Citedef<br>         <b>Localidad:</b> Villa Martelli, Buenos Aires<br>         <b>Contacto:</b> Jorge Codnia (jcodnia@citedef.gob.ar )<br>         <b>Página web:</b> <a href="https://unidef.conicet.gov.ar/laboratorios-la/division-laseres-moleculares/" target="_blank">https://unidef.conicet.gov.ar/laboratorios-la/division-laseres-moleculares/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> En el grupo se desarrollan tecnologías cuánticas basadas en láseres, como comunicación cuántica, metrología por efectos cuánticos y sensado cuántico.         <br><hr><br>         <b>Nombre:</b> Óptica Cuántica<br>         <b>Afilación:</b> CITEDEF-CONICET<br>         <b>Localidad:</b> Villa Martelli, Buenos Aires<br>         <b>Contacto:</b> Laura Knoll, Investigadora (lauraknoll@gmail.com)<br>         <b>Página web:</b> <a href="https://unidef.conicet.gov.ar/laboratorios-la/division-optica-cuantica/" target="_blank">https://unidef.conicet.gov.ar/laboratorios-la/division-optica-cuantica/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> Desde el año 2008 la División Óptica Cuántica del DEILAP es un laboratorio pionero en Argentina en la investigación de este tipo de fenómenos, abarcando líneas de trabajo aplicadas y de física fundamental. En el Laboratorio se realizan experimentos con pares de fotones entrelazados, desarrollos de sistemas de Distribución Cuántica de Claves criptográficas, estudios de Metrología Cuántica y de óptica cuántica fundamental como la interacción de implementaciones de algoritmos cuánticos con entornos ruidosos, y la obtención y caracterización de fuentes de luz no clásicas. Estos experimentos nos permiten estudiar propiedades fundamentales de la luz y generar herramientas para el procesamiento cuántico de la información.         <br><hr><br>         <b>Nombre:</b> Laboratorio de Láseres Sólidos<br>         <b>Afilación:</b> CITEDEF, CONICET<br>         <b>Localidad:</b> Villa Martelli, Buenos Aires.<br>         <b>Contacto:</b> Dr. Marcelo G. Kovalsky (mgkovalsky@gmail.com)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> Es el primer grupo que observó la violación de las desigualdades de Bell en Argentina. Tiene instalado un experimento de Bell óptico con estaciones a 60m. Ha realizado experimentos pioneros en Fundamentación, sobre la existencia de desviaciones transitorias de las predicciones de la QM en la Naturaleza. Se especializa en  generación y control de series aleatorias, tanto de origen en sistemas caóticos como en sistemas cuánticos, y en la aplicación de redes neuronales para establecer su nivel de aleatoriedad. Integrantes a Enero 2025: M.Kovalsky (jefe), M.Agüero, M.Nonaka, J.Bordieu, A.Hnilo (jubilado)         </div>`)[0];
-                popup_01b4124a8ac565d7d5499bd2e1f84d27.setContent(html_2749fa2dc401631320aafd4df7b931e2);
+                var html_a70ea1ef5fd50cf1805946cbbd2739f4 = $(`<div id="html_a70ea1ef5fd50cf1805946cbbd2739f4" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Láseres Moleculares<br>         <b>Afilación:</b> Citedef<br>         <b>Localidad:</b> Villa Martelli, Buenos Aires<br>         <b>Contacto:</b> Jorge Codnia (jcodnia@citedef.gob.ar )<br>         <b>Página web:</b> <a href="https://unidef.conicet.gov.ar/laboratorios-la/division-laseres-moleculares/" target="_blank">https://unidef.conicet.gov.ar/laboratorios-la/division-laseres-moleculares/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> En el grupo se desarrollan tecnologías cuánticas basadas en láseres, como comunicación cuántica, metrología por efectos cuánticos y sensado cuántico.         <br><hr><br>         <b>Nombre:</b> Óptica Cuántica<br>         <b>Afilación:</b> CITEDEF-CONICET<br>         <b>Localidad:</b> Villa Martelli, Buenos Aires<br>         <b>Contacto:</b> Laura Knoll, Investigadora (lauraknoll@gmail.com)<br>         <b>Página web:</b> <a href="https://unidef.conicet.gov.ar/laboratorios-la/division-optica-cuantica/" target="_blank">https://unidef.conicet.gov.ar/laboratorios-la/division-optica-cuantica/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> Desde el año 2008 la División Óptica Cuántica del DEILAP es un laboratorio pionero en Argentina en la investigación de este tipo de fenómenos, abarcando líneas de trabajo aplicadas y de física fundamental. En el Laboratorio se realizan experimentos con pares de fotones entrelazados, desarrollos de sistemas de Distribución Cuántica de Claves criptográficas, estudios de Metrología Cuántica y de óptica cuántica fundamental como la interacción de implementaciones de algoritmos cuánticos con entornos ruidosos, y la obtención y caracterización de fuentes de luz no clásicas. Estos experimentos nos permiten estudiar propiedades fundamentales de la luz y generar herramientas para el procesamiento cuántico de la información.         <br><hr><br>         <b>Nombre:</b> Laboratorio de Láseres Sólidos<br>         <b>Afilación:</b> CITEDEF, CONICET<br>         <b>Localidad:</b> Villa Martelli, Buenos Aires.<br>         <b>Contacto:</b> Dr. Marcelo G. Kovalsky (mgkovalsky@gmail.com)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> Es el primer grupo que observó la violación de las desigualdades de Bell en Argentina. Tiene instalado un experimento de Bell óptico con estaciones a 60m. Ha realizado experimentos pioneros en Fundamentación, sobre la existencia de desviaciones transitorias de las predicciones de la QM en la Naturaleza. Se especializa en  generación y control de series aleatorias, tanto de origen en sistemas caóticos como en sistemas cuánticos, y en la aplicación de redes neuronales para establecer su nivel de aleatoriedad. Integrantes a Enero 2025: M.Kovalsky (jefe), M.Agüero, M.Nonaka, J.Bordieu, A.Hnilo (jubilado)         </div>`)[0];
+                popup_fa3c111dda5f26e9131f628fb4afd7d8.setContent(html_a70ea1ef5fd50cf1805946cbbd2739f4);
             
         
 
-        marker_faacab2675023e94e902a6b370d9b1f0.bindPopup(popup_01b4124a8ac565d7d5499bd2e1f84d27)
+        marker_3a152e46bce433c04c704f99fd969a35.bindPopup(popup_fa3c111dda5f26e9131f628fb4afd7d8)
         ;
 
         
     
     
-            marker_faacab2675023e94e902a6b370d9b1f0.bindTooltip(
+            marker_3a152e46bce433c04c704f99fd969a35.bindTooltip(
                 `<div>
                      Laboratorio de Láseres Moleculares<br>Óptica Cuántica<br>Laboratorio de Láseres Sólidos
                  </div>`,
@@ -671,14 +671,14 @@
             );
         
     
-            var marker_6544a6f5d711ff3d9e59f9e0efd2492d = L.marker(
+            var marker_ce9523ce6ad8ec2b62c00841f1dbff46 = L.marker(
                 [-34.6186422, -58.637652],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_d9d103ee72562cc9078b4c507a166536 = L.AwesomeMarkers.icon(
+            var icon_d24b71d4f389227041aff84014db5ea4 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -687,27 +687,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_6544a6f5d711ff3d9e59f9e0efd2492d.setIcon(icon_d9d103ee72562cc9078b4c507a166536);
+            marker_ce9523ce6ad8ec2b62c00841f1dbff46.setIcon(icon_d24b71d4f389227041aff84014db5ea4);
         
     
-        var popup_6d91457aa3f3ef26fd7dc7a325b5b478 = L.popup({
+        var popup_c426a48809550c859d7dd6e505a38238 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_1c6ad013e3106bbe75348afe5a5208c2 = $(`<div id="html_1c6ad013e3106bbe75348afe5a5208c2" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Nanosistemas de Aplicación Biotecnológica<br>         <b>Afilación:</b> Universidad Nacional de Hurlingham - Secretaría de Investigación<br>         <b>Localidad:</b> Villa Tesei, Buenos Aires<br>         <b>Contacto:</b> Juan Pedrosa (lansab@unahur.edu.ar juan.pedrosa@unahur.edu.ar)<br>         <b>Página web:</b> <a href="https://unahur.edu.ar/laboratorio-de-nanosistemas-de-aplicacion-biotecnologica/" target="_blank">https://unahur.edu.ar/laboratorio-de-nanosistemas-de-aplicacion-biotecnologica/</a><br>         <b>Redes sociales:</b> @lansab_nano<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> El Laboratorio de Nanosistemas de Aplicación Biotecnológica (LANSAB) está especializado en la encapsulación de fármacos, cosméticos, tópicos y activos naturales. Nanotecnología aplicada a enfermedades cutáneas (cáncer de piel y leishmaniasis). Nanotecnología aplicada a formulaciones de uso veterinario. Nanotecnología aplicada a la salud del suelo. Desarrollo de nanocosméticos y nanorrepelentes.         </div>`)[0];
-                popup_6d91457aa3f3ef26fd7dc7a325b5b478.setContent(html_1c6ad013e3106bbe75348afe5a5208c2);
+                var html_cc0778519b7a0d58d9e2a0421c3abac2 = $(`<div id="html_cc0778519b7a0d58d9e2a0421c3abac2" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Nanosistemas de Aplicación Biotecnológica<br>         <b>Afilación:</b> Universidad Nacional de Hurlingham - Secretaría de Investigación<br>         <b>Localidad:</b> Villa Tesei, Buenos Aires<br>         <b>Contacto:</b> Juan Pedrosa (lansab@unahur.edu.ar juan.pedrosa@unahur.edu.ar)<br>         <b>Página web:</b> <a href="https://unahur.edu.ar/laboratorio-de-nanosistemas-de-aplicacion-biotecnologica/" target="_blank">https://unahur.edu.ar/laboratorio-de-nanosistemas-de-aplicacion-biotecnologica/</a><br>         <b>Redes sociales:</b> @lansab_nano<br>         <b>Enfoque:</b> Experimental<br>         <b>Descripción:</b> El Laboratorio de Nanosistemas de Aplicación Biotecnológica (LANSAB) está especializado en la encapsulación de fármacos, cosméticos, tópicos y activos naturales. Nanotecnología aplicada a enfermedades cutáneas (cáncer de piel y leishmaniasis). Nanotecnología aplicada a formulaciones de uso veterinario. Nanotecnología aplicada a la salud del suelo. Desarrollo de nanocosméticos y nanorrepelentes.         </div>`)[0];
+                popup_c426a48809550c859d7dd6e505a38238.setContent(html_cc0778519b7a0d58d9e2a0421c3abac2);
             
         
 
-        marker_6544a6f5d711ff3d9e59f9e0efd2492d.bindPopup(popup_6d91457aa3f3ef26fd7dc7a325b5b478)
+        marker_ce9523ce6ad8ec2b62c00841f1dbff46.bindPopup(popup_c426a48809550c859d7dd6e505a38238)
         ;
 
         
     
     
-            marker_6544a6f5d711ff3d9e59f9e0efd2492d.bindTooltip(
+            marker_ce9523ce6ad8ec2b62c00841f1dbff46.bindTooltip(
                 `<div>
                      Laboratorio de Nanosistemas de Aplicación Biotecnológica
                  </div>`,
@@ -717,14 +717,14 @@
             );
         
     
-            var marker_f2bf00ba91fb5d653ca8ba213831290b = L.marker(
+            var marker_483c27643b9205c4262e8bd26c0b3b27 = L.marker(
                 [-31.437552, -64.1921901],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_a790a01c931998d3583cfb081bfb09c6 = L.AwesomeMarkers.icon(
+            var icon_49e02d01aa7274061dc926bd24af1453 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -733,27 +733,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_f2bf00ba91fb5d653ca8ba213831290b.setIcon(icon_a790a01c931998d3583cfb081bfb09c6);
+            marker_483c27643b9205c4262e8bd26c0b3b27.setIcon(icon_49e02d01aa7274061dc926bd24af1453);
         
     
-        var popup_571b914fba5a5f027d6ad54a809d7c7d = L.popup({
+        var popup_ea06c7fdcbd8d8ddbadc4278ad5c72b6 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_3d2b9b684253107ef9bb7b4688f16447 = $(`<div id="html_3d2b9b684253107ef9bb7b4688f16447" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Teoría de la Materia Condensada<br>         <b>Afilación:</b> Universidad Nacional de Córdoba<br>         <b>Localidad:</b> Córdoba, Córdoba<br>         <b>Contacto:</b> Omar Osenda, Prof. Titular. (omar.osenda@unc.edu.ar)<br>         <b>Página web:</b> <a href="https://www.famaf.unc.edu.ar/investigaci%C3%B3n/%C3%A1reas-de-investigaci%C3%B3n/f%C3%ADsica-ofi/teor%C3%ADa-de-la-materia-condensada/" target="_blank">https://www.famaf.unc.edu.ar/investigaci%C3%B3n/%C3%A1reas-de-investigaci%C3%B3n/f%C3%ADsica-ofi/teor%C3%ADa-de-la-materia-condensada/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> En el grupo se estudian diferentes aspectos de la Física Cuántica que incluyen, los fundamentos de la física cuántica (medidas de distancia entre estados, nuevas métricas para la descripción de estados en el espacio de Hilbert), la teoría de la información cuántica (calculos y derivaciones de entropías y medidas de entrelazamiento en diferentes sistemas ),  sistemas topológicos (en los que los estados de tipo topológico son caracterizados en diferentes dimensiones), modelado de sistemas cuánticos de pocos cuerpos (que incluyen cadenas de espín, puntos cuánticos semiconductores y átomos y moléculas).         <br><hr><br>         <b>Nombre:</b> Dinámica Cuántica y Decoherencia de Excitaciones de Carga y Espín (1993). LANAIS de RMS<br>         <b>Afilación:</b> Instituto de Física Enrique Gaviola (CONICET-Universidad Nacional Córdoba)<br>         <b>Localidad:</b> Córdoba, Córdoba <br>         <b>Contacto:</b> Horacio M. Pastawski, Investigador Superior  (horacio.miguel.pastawski@unc.edu.ar)<br>         <b>Página web:</b> <a href="http://www.lanais.famaf.unc.edu.ar/" target="_blank">http://www.lanais.famaf.unc.edu.ar/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> Con técnicas analíticas, experimentales ( Solid-State NMR), y numéricas se desarrollan conceptos (Ecos Mesoscópicos, Canales Cuánticos, Transiciones de Fase en la Dinámica Cuántica, Reversión temporal (Ecos de Loschmidt/OTOC ), espejos de reversión temporal y cristales en el tiempo para el control de excitaciones cuánticas (carga, espín, vibracional, acústica y/o plasmónica) en sistemas de muchos cuerpos sometidos a la acción de ambientes y perturbaciones externas. Con ello se profundizan aspectos conceptuales y se perfeccionan técnicas de detección, compuertas cuánticas, generación de Hamiltonianos de Floquet no-Hermíticos y procesos de termalización.          </div>`)[0];
-                popup_571b914fba5a5f027d6ad54a809d7c7d.setContent(html_3d2b9b684253107ef9bb7b4688f16447);
+                var html_d4383f7aa9883bcc241eb9de48fa5a4a = $(`<div id="html_d4383f7aa9883bcc241eb9de48fa5a4a" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Teoría de la Materia Condensada<br>         <b>Afilación:</b> Universidad Nacional de Córdoba<br>         <b>Localidad:</b> Córdoba, Córdoba<br>         <b>Contacto:</b> Omar Osenda, Prof. Titular. (omar.osenda@unc.edu.ar)<br>         <b>Página web:</b> <a href="https://www.famaf.unc.edu.ar/investigaci%C3%B3n/%C3%A1reas-de-investigaci%C3%B3n/f%C3%ADsica-ofi/teor%C3%ADa-de-la-materia-condensada/" target="_blank">https://www.famaf.unc.edu.ar/investigaci%C3%B3n/%C3%A1reas-de-investigaci%C3%B3n/f%C3%ADsica-ofi/teor%C3%ADa-de-la-materia-condensada/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> En el grupo se estudian diferentes aspectos de la Física Cuántica que incluyen, los fundamentos de la física cuántica (medidas de distancia entre estados, nuevas métricas para la descripción de estados en el espacio de Hilbert), la teoría de la información cuántica (calculos y derivaciones de entropías y medidas de entrelazamiento en diferentes sistemas ),  sistemas topológicos (en los que los estados de tipo topológico son caracterizados en diferentes dimensiones), modelado de sistemas cuánticos de pocos cuerpos (que incluyen cadenas de espín, puntos cuánticos semiconductores y átomos y moléculas).         <br><hr><br>         <b>Nombre:</b> Dinámica Cuántica y Decoherencia de Excitaciones de Carga y Espín (1993). LANAIS de RMS<br>         <b>Afilación:</b> Instituto de Física Enrique Gaviola (CONICET-Universidad Nacional Córdoba)<br>         <b>Localidad:</b> Córdoba, Córdoba <br>         <b>Contacto:</b> Horacio M. Pastawski, Investigador Superior  (horacio.miguel.pastawski@unc.edu.ar)<br>         <b>Página web:</b> <a href="http://www.lanais.famaf.unc.edu.ar/" target="_blank">http://www.lanais.famaf.unc.edu.ar/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Experimental, Computacional<br>         <b>Descripción:</b> Con técnicas analíticas, experimentales ( Solid-State NMR), y numéricas se desarrollan conceptos (Ecos Mesoscópicos, Canales Cuánticos, Transiciones de Fase en la Dinámica Cuántica, Reversión temporal (Ecos de Loschmidt/OTOC ), espejos de reversión temporal y cristales en el tiempo para el control de excitaciones cuánticas (carga, espín, vibracional, acústica y/o plasmónica) en sistemas de muchos cuerpos sometidos a la acción de ambientes y perturbaciones externas. Con ello se profundizan aspectos conceptuales y se perfeccionan técnicas de detección, compuertas cuánticas, generación de Hamiltonianos de Floquet no-Hermíticos y procesos de termalización.          </div>`)[0];
+                popup_ea06c7fdcbd8d8ddbadc4278ad5c72b6.setContent(html_d4383f7aa9883bcc241eb9de48fa5a4a);
             
         
 
-        marker_f2bf00ba91fb5d653ca8ba213831290b.bindPopup(popup_571b914fba5a5f027d6ad54a809d7c7d)
+        marker_483c27643b9205c4262e8bd26c0b3b27.bindPopup(popup_ea06c7fdcbd8d8ddbadc4278ad5c72b6)
         ;
 
         
     
     
-            marker_f2bf00ba91fb5d653ca8ba213831290b.bindTooltip(
+            marker_483c27643b9205c4262e8bd26c0b3b27.bindTooltip(
                 `<div>
                      Grupo de Teoría de la Materia Condensada<br>Dinámica Cuántica y Decoherencia de Excitaciones de Carga y Espín (1993). LANAIS de RMS
                  </div>`,
@@ -763,14 +763,14 @@
             );
         
     
-            var marker_507b6e6edb51dfac7c1747744d9f2dc3 = L.marker(
+            var marker_61196c73298e97d79484712db6e26f01 = L.marker(
                 [-31.6372912, -60.7097757],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_61aef93fd266a07c8fe15278ec6e1821 = L.AwesomeMarkers.icon(
+            var icon_584d4fbd203d42006b53ab1a6532c692 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -779,27 +779,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_507b6e6edb51dfac7c1747744d9f2dc3.setIcon(icon_61aef93fd266a07c8fe15278ec6e1821);
+            marker_61196c73298e97d79484712db6e26f01.setIcon(icon_584d4fbd203d42006b53ab1a6532c692);
         
     
-        var popup_d86312fe1f20517b019df29118c38af9 = L.popup({
+        var popup_0982280336b00de1633ce43d0e6efc0c = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_1e9689cbbb411ff8c7802849d6a02165 = $(`<div id="html_1e9689cbbb411ff8c7802849d6a02165" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Química Teórica y Computacional QTyC<br>         <b>Afilación:</b> Instituto de Química Aplicada del Litoral (IQAL, CONICET-UNL), Facultad de Ingeniería Química (FIQ, UNL)<br>         <b>Localidad:</b> Santa Fe, Santa Fe<br>         <b>Contacto:</b> Paola Quaino (Directora de Grupo) (pquaino@fiq.unl.edu.ar)<br>         <b>Página web:</b> <a href="https://iqal.conicet.gov.ar/quimica-teorica-y-computacional/" target="_blank">https://iqal.conicet.gov.ar/quimica-teorica-y-computacional/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo desarrolla modelos teóricos basados en química cuántica y dinámica molecular para explicar fenómenos experimentales, con énfasis en reacciones de interés tecnológico. Además, combina química computacional e inteligencia artificial para predecir sistemas químicos y optimizar tecnologías energéticas y ambientales.         </div>`)[0];
-                popup_d86312fe1f20517b019df29118c38af9.setContent(html_1e9689cbbb411ff8c7802849d6a02165);
+                var html_834040d0537deb64b3cbe5cd903c59f4 = $(`<div id="html_834040d0537deb64b3cbe5cd903c59f4" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Química Teórica y Computacional QTyC<br>         <b>Afilación:</b> Instituto de Química Aplicada del Litoral (IQAL, CONICET-UNL), Facultad de Ingeniería Química (FIQ, UNL)<br>         <b>Localidad:</b> Santa Fe, Santa Fe<br>         <b>Contacto:</b> Paola Quaino (Directora de Grupo) (pquaino@fiq.unl.edu.ar)<br>         <b>Página web:</b> <a href="https://iqal.conicet.gov.ar/quimica-teorica-y-computacional/" target="_blank">https://iqal.conicet.gov.ar/quimica-teorica-y-computacional/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El grupo desarrolla modelos teóricos basados en química cuántica y dinámica molecular para explicar fenómenos experimentales, con énfasis en reacciones de interés tecnológico. Además, combina química computacional e inteligencia artificial para predecir sistemas químicos y optimizar tecnologías energéticas y ambientales.         </div>`)[0];
+                popup_0982280336b00de1633ce43d0e6efc0c.setContent(html_834040d0537deb64b3cbe5cd903c59f4);
             
         
 
-        marker_507b6e6edb51dfac7c1747744d9f2dc3.bindPopup(popup_d86312fe1f20517b019df29118c38af9)
+        marker_61196c73298e97d79484712db6e26f01.bindPopup(popup_0982280336b00de1633ce43d0e6efc0c)
         ;
 
         
     
     
-            marker_507b6e6edb51dfac7c1747744d9f2dc3.bindTooltip(
+            marker_61196c73298e97d79484712db6e26f01.bindTooltip(
                 `<div>
                      Química Teórica y Computacional QTyC
                  </div>`,
@@ -809,14 +809,14 @@
             );
         
     
-            var marker_73ea95ade12170a8253993c5714a8a02 = L.marker(
+            var marker_de234a6ab09d09284f26dd065d612f7f = L.marker(
                 [-32.968535, -60.624484],
                 {
 }
-            ).addTo(map_5771afe0baa32407dc84055239098a3d);
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            var icon_1e3e15818019a3cd4376e6405a617a5c = L.AwesomeMarkers.icon(
+            var icon_951c631e31f3dc5ccb2259fe5b7eedb6 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "lightblue",
   "iconColor": "white",
@@ -825,27 +825,27 @@
   "extraClasses": "fa-rotate-0",
 }
             );
-            marker_73ea95ade12170a8253993c5714a8a02.setIcon(icon_1e3e15818019a3cd4376e6405a617a5c);
+            marker_de234a6ab09d09284f26dd065d612f7f.setIcon(icon_951c631e31f3dc5ccb2259fe5b7eedb6);
         
     
-        var popup_8bae3cceb4557f9b5d0c885e2df9e615 = L.popup({
+        var popup_8169c45498022ca7931eb068c0b55775 = L.popup({
   "maxWidth": 400,
 });
 
         
             
-                var html_7352feb552757cc81e647f96ea93aac8 = $(`<div id="html_7352feb552757cc81e647f96ea93aac8" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Colisiones Atómicas Rosario<br>         <b>Afilación:</b> Instituto de Física Rosario (CONICET-UNR)-Facultad Agrimensura, Ciencias Exactas e Ingeniería (UNR)<br>         <b>Localidad:</b> Rosario, Santa Fe<br>         <b>Contacto:</b> Omar Ariel Fojón, Profesor Titular UNR e Investigador Principal CONICET (fojon@ifir-conicet.gov.ar)<br>         <b>Página web:</b> <a href="https://www.ifir-conicet.gov.ar/lineasinv/lineasinv/?li=12" target="_blank">https://www.ifir-conicet.gov.ar/lineasinv/lineasinv/?li=12</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> Se desarrollan diversas líneas de investigación. -Attofísica. Estudio de la interacción de attopulsos asistidos por láseres con átomos y moléculas. La attofísica surgió con la obtención en 2001 de los primeros attopulsos, pulsos láser de muy breve duración (cientos de attosegundos). En este área fue otorgado el Premio Nobel de Física 2023. Desarrollamos métodos perturbativos y perturbativos así como cálculos ab initio para el estudio de reacciones básicas de la attofísica. -Dinámica cuántica de reacciones básicas de colisión. Estudio teórico de reacciones básicas de excitación, captura e ionización de átomos y moléculas por impacto de iones pesados, electrones y positrones. -Aplicaciones en Física Médica. Estudio de la interacción de las radiaciones ionizantes con la materia biológica. Desarrollamos modelos cuánticos de reacciones básicas entre moléculas de interés biológico e iones, y modelos de tipo Monte Carlo para la determinación de la dosis depositada a escala celular, de vital interés en Radiobiología y Física Médica para el tratamiento de tumores.         </div>`)[0];
-                popup_8bae3cceb4557f9b5d0c885e2df9e615.setContent(html_7352feb552757cc81e647f96ea93aac8);
+                var html_9fe4484768d83962b177efa06ad27666 = $(`<div id="html_9fe4484768d83962b177efa06ad27666" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Colisiones Atómicas Rosario<br>         <b>Afilación:</b> Instituto de Física Rosario (CONICET-UNR)-Facultad Agrimensura, Ciencias Exactas e Ingeniería (UNR)<br>         <b>Localidad:</b> Rosario, Santa Fe<br>         <b>Contacto:</b> Omar Ariel Fojón, Profesor Titular UNR e Investigador Principal CONICET (fojon@ifir-conicet.gov.ar)<br>         <b>Página web:</b> <a href="https://www.ifir-conicet.gov.ar/lineasinv/lineasinv/?li=12" target="_blank">https://www.ifir-conicet.gov.ar/lineasinv/lineasinv/?li=12</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> Se desarrollan diversas líneas de investigación. -Attofísica. Estudio de la interacción de attopulsos asistidos por láseres con átomos y moléculas. La attofísica surgió con la obtención en 2001 de los primeros attopulsos, pulsos láser de muy breve duración (cientos de attosegundos). En este área fue otorgado el Premio Nobel de Física 2023. Desarrollamos métodos perturbativos y perturbativos así como cálculos ab initio para el estudio de reacciones básicas de la attofísica. -Dinámica cuántica de reacciones básicas de colisión. Estudio teórico de reacciones básicas de excitación, captura e ionización de átomos y moléculas por impacto de iones pesados, electrones y positrones. -Aplicaciones en Física Médica. Estudio de la interacción de las radiaciones ionizantes con la materia biológica. Desarrollamos modelos cuánticos de reacciones básicas entre moléculas de interés biológico e iones, y modelos de tipo Monte Carlo para la determinación de la dosis depositada a escala celular, de vital interés en Radiobiología y Física Médica para el tratamiento de tumores.         </div>`)[0];
+                popup_8169c45498022ca7931eb068c0b55775.setContent(html_9fe4484768d83962b177efa06ad27666);
             
         
 
-        marker_73ea95ade12170a8253993c5714a8a02.bindPopup(popup_8bae3cceb4557f9b5d0c885e2df9e615)
+        marker_de234a6ab09d09284f26dd065d612f7f.bindPopup(popup_8169c45498022ca7931eb068c0b55775)
         ;
 
         
     
     
-            marker_73ea95ade12170a8253993c5714a8a02.bindTooltip(
+            marker_de234a6ab09d09284f26dd065d612f7f.bindTooltip(
                 `<div>
                      Grupo de Colisiones Atómicas Rosario
                  </div>`,
@@ -855,13 +855,123 @@
             );
         
     
-            tile_layer_3d0eeef39a0a27c85467c98a6cac9cf0.addTo(map_5771afe0baa32407dc84055239098a3d);
+            var marker_fffa546d8a6b07145ab5140344d84fbf = L.marker(
+                [-33.2911524, -66.3350925],
+                {
+}
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
         
     
-            tile_layer_01ddc3ffbab0a95929addbd8efd73061.addTo(map_5771afe0baa32407dc84055239098a3d);
+            var icon_1d2fdac8cd2dff3c14162058520d814e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "atom",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fffa546d8a6b07145ab5140344d84fbf.setIcon(icon_1d2fdac8cd2dff3c14162058520d814e);
         
     
-            macro_element_4ed6ace135fab56a0dd7c60d0bf308e2.addTo(map_5771afe0baa32407dc84055239098a3d);
+        var popup_e137496d00f9dbcbd72658cd79d6ac77 = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_b1141e3ca5ebbfe188744d1789fd1af4 = $(`<div id="html_b1141e3ca5ebbfe188744d1789fd1af4" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Laboratorio de Química Física<br>         <b>Afilación:</b> Instituto multidisciplinario de investigaciones biológicas (IMIBIO-SL)- Universidad Nacional de San Luis<br>         <b>Localidad:</b> San Luis, San Luis<br>         <b>Contacto:</b> Juan C. Garro Martinez- Profesor Titular. Investigador Adjunto (jcgarro3@gmail.com)<br>         <b>Página web:</b> <a href="https://imibio.conicet.gov.ar/laboratorio-de-quimica-fisica/" target="_blank">https://imibio.conicet.gov.ar/laboratorio-de-quimica-fisica/</a><br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Teórico, Computacional<br>         <b>Descripción:</b> El estudio de sistemas moleculares de interés químico y biológico, con relación a la estructura y la reactividad química con un enfoque teórico a través de metodologías de la Química Computacional como modelado molecular, docking y dinámica molecular y la cuantificación de la relación estructura actividad biológica (QSAR); y con el aporte de datos experimentales que surgen de diferentes colaboraciones. Los objetivos generales son investigar el comportamiento de sistemas moleculares de interés químico, bioquímico y farmacológico con el objeto proponer modelos computacionales para explicar a escala atómico-molecular.           </div>`)[0];
+                popup_e137496d00f9dbcbd72658cd79d6ac77.setContent(html_b1141e3ca5ebbfe188744d1789fd1af4);
+            
+        
+
+        marker_fffa546d8a6b07145ab5140344d84fbf.bindPopup(popup_e137496d00f9dbcbd72658cd79d6ac77)
+        ;
+
+        
+    
+    
+            marker_fffa546d8a6b07145ab5140344d84fbf.bindTooltip(
+                `<div>
+                     Laboratorio de Química Física
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7e4827026adf48ee7afc4b4c64352218 = L.marker(
+                [-34.9035779, -57.9339725],
+                {
+}
+            ).addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            var icon_aeb9ebf94bd91dc5076b8dab7b10e4d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "atom",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7e4827026adf48ee7afc4b4c64352218.setIcon(icon_aeb9ebf94bd91dc5076b8dab7b10e4d0);
+        
+    
+        var popup_55753fbfb4dafb353c4cf9b72092c5be = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_21fb8877b52b32a775100d2351dd8a4d = $(`<div id="html_21fb8877b52b32a775100d2351dd8a4d" style="width: 100.0%; height: 100.0%;">         <b>Nombre:</b> Grupo de Ingeniería de Software Cuántico<br>         <b>Afilación:</b> Cecntro de Investigación LIFIA, Facultad de Informática, UNLP<br>         <b>Localidad:</b> La Plata, Buenos Aires<br>         <b>Contacto:</b> Alejandro Fernandez, director (casco@lifia.info.unlp.edu.ar)<br>         <b>Página web:</b> nan<br>         <b>Redes sociales:</b> nan<br>         <b>Enfoque:</b> Computacional, <br>         <b>Descripción:</b> En la actualidad el grupo trabaja tres líneas: 1)  “Aplicación de técnicas de aprendizaje automático a la programación de circuitos cuánticos” explora distintos escenarios donde las IA, en particular los modelos generativos, aportan en el Desarrollo, Comprensión, Mantenimiento y Optimización de circuitos cuánticos. 2) “Computación Cuántica y sus Recursos en la Ingeniería de Software” pretende identificar y caracterizar distintos recursos en la computación cuántica teniendo en cuenta las limitaciones de los dispositivos disponibles en la era NISQ en pos del desarrollo de un marco metodológico para la toma de decisiones en ingeniería de software. 3) “Hojas de ruta para aprender computación cuántica” busca identificar y analizar comparativamente diversas estrategias diferenciadas de aprendizaje sobre el paradigma de computación cuántica, tomando como base las experiencias de distintas personas que abordan el tema mediante enfoques y fuentes de consulta variadas. Dicho análisis busca extraer lecciones sobre los métodos de apropiación de conocimientos en este campo emergente de la informática, con especial énfasis en estudiantes provenientes de la computación tradicional.         </div>`)[0];
+                popup_55753fbfb4dafb353c4cf9b72092c5be.setContent(html_21fb8877b52b32a775100d2351dd8a4d);
+            
+        
+
+        marker_7e4827026adf48ee7afc4b4c64352218.bindPopup(popup_55753fbfb4dafb353c4cf9b72092c5be)
+        ;
+
+        
+    
+    
+            marker_7e4827026adf48ee7afc4b4c64352218.bindTooltip(
+                `<div>
+                     Grupo de Ingeniería de Software Cuántico
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_267e63165afb6b6bff7baf4335b798c4.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            tile_layer_082d2ca3db9fc31274ef84bf19e4f09a.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            macro_element_3378c24cbc3d35ef6214e230a8b98111.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            tile_layer_267e63165afb6b6bff7baf4335b798c4.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            tile_layer_082d2ca3db9fc31274ef84bf19e4f09a.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            macro_element_3378c24cbc3d35ef6214e230a8b98111.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            tile_layer_267e63165afb6b6bff7baf4335b798c4.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            tile_layer_082d2ca3db9fc31274ef84bf19e4f09a.addTo(map_8abae820cb57f96142a18c8099172daf);
+        
+    
+            macro_element_3378c24cbc3d35ef6214e230a8b98111.addTo(map_8abae820cb57f96142a18c8099172daf);
         
 </script>
 </html>
